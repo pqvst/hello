@@ -13,6 +13,8 @@ kramdown:
 
 highlighter: rouge
 
+permalink: pretty
+
 #input: GFM
 #syntax_highlighter: rouge
 
