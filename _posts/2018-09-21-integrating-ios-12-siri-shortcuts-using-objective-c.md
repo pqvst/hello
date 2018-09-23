@@ -236,4 +236,4 @@ This was by far the most difficult step to figure out, especially since the docu
 
 ---
 
-Why not check out Unified Remote on [App Store](https://itunes.apple.com/us/app/unified-remote/id825534179?mt=8) or [Google Play](https://play.google.com/store/apps/details?id=com.Relmtech.Remote)!
+Check out Unified Remote in the [App Store](https://itunes.apple.com/us/app/unified-remote/id825534179?mt=8) or on [Google Play](https://play.google.com/store/apps/details?id=com.Relmtech.Remote)!
