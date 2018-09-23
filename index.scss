@@ -6,9 +6,17 @@
 @import "primer-layout/index.scss";
 @import "primer-utilities/index.scss";
 
-@media only screen and (max-width: 760px) {
-  .markdown-body {
-    padding: 1em;
-  }
+.markdown-body {
+  padding: 1em;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  margin: 0 auto;
 }
   
+.markdown-body img2 {
+  box-shadow: 0 0 30px #aaa;
+  border-radius: 5px;
+  margin: 30px 0;
+}
