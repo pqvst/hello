@@ -5,7 +5,7 @@ title:  "Integrating iOS 12 Siri Shortcuts using Objective-C"
 
 A simple, straight-forward, step-by-step guide to implementing iOS 12 Siri Shortcuts using Objective-C. I noticed that the documentation for integrating the new iOS Shortcuts API is very sparse. After a lot of trial and error, combined with reading the official docs and various tutorials and forum threads, I managed to get everything to work.
 
-![Shortcuts Demo](/assets/ShortcutsDemo.png)
+![Shortcuts Demo](/assets/images/ShortcutsDemo.png)
 
 ## Introduction
 
@@ -23,7 +23,7 @@ Apps can [Donate Shortcuts](https://developer.apple.com/documentation/sirikit/do
 
 This tutorial will cover all required steps for donating and implementing both of the above. In my case, the goal was to donate a user activity whenever the user opens a remote in the app, and to donate an interaction when they trigger an action inside a remote.
 
-![App Demo](/assets/AppDemo.png)
+![App Demo](/assets/images/AppDemo.png)
 
 ## Donating a User Activity
 
@@ -70,7 +70,7 @@ Also implement the `updateUserActivityState` function as well since (for whateve
 * Right-click and select `Shift Row Right`.
 * Then add your "activity type" that you chose above.
 
-![NSUserActivityTypes](/assets/AddNSUserActivityTypesToPlist.png)
+![NSUserActivityTypes](/assets/images/AddNSUserActivityTypesToPlist.png)
 
 4) Test if your user activity is getting donated.
 
@@ -79,7 +79,7 @@ Also implement the `updateUserActivityState` function as well since (for whateve
 
 Note, you may have to trigger it a few times, or select `All Shortcuts` and search for your shortcut.
 
-![NSUserActivityTypes](/assets/UserActivityDemo.png)
+![NSUserActivityTypes](/assets/images/UserActivityDemo.png)
 
 
 ## Handling a User Activity
@@ -116,11 +116,11 @@ Simply add the `continueUserActivity` handler to your `AppDelegate`.
 * Select `New File...`
 * Add a `SiriKit Intent Definition File`.
 
-![IntentDefinitionFile](/assets/AddIntentDefinitionFile.png)
+![IntentDefinitionFile](/assets/images/AddIntentDefinitionFile.png)
 
 2) Create a new custom intent by clicking the `+` in the bottom left corner and give your intent a name.
 
-![Intent](/assets/AddIntent.png)
+![Intent](/assets/images/AddIntent.png)
 
 3) Configure the intent settings and add any parameters that you need.
 
@@ -131,7 +131,7 @@ Simply add the `continueUserActivity` handler to your `AppDelegate`.
 * For each shortcut type, customize the title using the parameter values. 
 * Make sure to enable `Supports background execution` if you want to.
 
-![Configure Intent](/assets/ConfigureIntent.png)
+![Configure Intent](/assets/images/ConfigureIntent.png)
 
 4) Next you will want to actually implement where you donate the interaction shortcut. First of all, you need to import the `Intents/Intents.h` header to be able to use the `INInteraction` class. You also have to import the generated header for your custom intent. This was a bit tricky to figure out (and not documented at all). Basically it's just `[ClassPrefix][IntentName]Intent.h`.
 
@@ -181,7 +181,7 @@ This was by far the most difficult step to figure out, especially since the docu
 * Select the `Capabilities` tab.
 * Enable `Siri`.
 
-![Enable Siri Capability](/assets/EnableSiriCapability.png)
+![Enable Siri Capability](/assets/images/EnableSiriCapability.png)
 
 2) Add an `Intents Extension` to your project. (See [Apple Documentation](https://developer.apple.com/documentation/sirikit/creating_an_intents_app_extension?language=objc) for more details.)
 
@@ -191,7 +191,7 @@ This was by far the most difficult step to figure out, especially since the docu
 * Set `Starting Point` to `None`
 * Deselect `Include UI Extension`
 
-![Add Intents Extension](/assets/AddIntentsExtension.png)
+![Add Intents Extension](/assets/images/AddIntentsExtension.png)
 
 3) Add the `Intents Definition File` to your `Intents Extension` target. Note: I tried moving the intents definition file to a shared Cocoa Touch Framework that both the main app and the intents extension had access to, however that does not seem to work. So, I recommend just adding both targets to the target membership setting instead.
 
@@ -199,14 +199,14 @@ This was by far the most difficult step to figure out, especially since the docu
 * Right-click `Show File Inspector`.
 * Add your Intents Extension under `Target Membership`.
 
-![Update Target Membership](/assets/UpdateIntentDefinitionFileTargetMemberships.png)
+![Update Target Membership](/assets/images/UpdateIntentDefinitionFileTargetMemberships.png)
 
 3) Enable your custom intent in the Intents Extension
 * Open `Info.plist` for your Intents Extension
 * Expand `NSExtension > NSExtensionAttributes > IntentsSupported`
 * Add the *full* intent name to the list (i.e. `[ClassPrefix][IntentName]Intent`).
 
-![Update Intents Extension Info Plist](/assets/UpdateIntentExtensionInfoPlist.png)
+![Update Intents Extension Info Plist](/assets/images/UpdateIntentExtensionInfoPlist.png)
 
 4) Open `IntentHandler.m` in your Intents Extension and implement your custom intent. Make sure to import your intent header and add your generated intent handling protocol as well (`[ClassPrefix][IntentName]IntentHandling`). 
 
@@ -228,11 +228,11 @@ This was by far the most difficult step to figure out, especially since the docu
 
 5) Keep in mind that the Intent Extension is a completely separate module, so if you need to access code from your main app you may need to refactor and share the code between the two targets. In my case, I decided to move a lot of my app backend logic to a new `Cocoa Touch Framework` target that both the main app target and the intents app target depend on. Note: Even "user defaults" are separate. However, you can share user defaults between both targets using [App Groups](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html).
 
-![Shared Framework](/assets/SharedFramework.png)
+![Shared Framework](/assets/images/SharedFramework.png)
 
 6) To test and debug your `Intent Extension`, choose the intent target and click run. When asked to choose an app to run click `Siri`. Once Siri starts on your phone you can test your shortcut there, or switch to the Shortcuts app and test it there as well.
 
-![Debug Intents Extension](/assets/DebugIntentsExtension.png)
+![Debug Intents Extension](/assets/images/DebugIntentsExtension.png)
 
 ---
 
