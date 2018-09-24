@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Integrating iOS 12 Siri Shortcuts using Objective-C"
+comments: true
 ---
 
 A simple, straight-forward, step-by-step guide to implementing iOS 12 Siri Shortcuts using Objective-C. I noticed that the documentation for integrating the new iOS Shortcuts API is very sparse. After a lot of trial and error, combined with reading the official docs and various tutorials and forum threads, I managed to get everything to work.

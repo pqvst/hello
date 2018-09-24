@@ -13,6 +13,8 @@
         <p>{{ page.date | date: '%B %d, %Y' }}</p>
         {{ content }}
       </div>
+      {% include disqus.html %}
     </div>
+    <script id="dsq-count-scr" src="//blog-pqvst-com.disqus.com/count.js" async></script>
   </body>
 </html>
