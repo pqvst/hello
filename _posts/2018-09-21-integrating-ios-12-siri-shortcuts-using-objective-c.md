@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Integrating iOS 12 Siri Shortcuts using Objective-C"
+tags: [iOS, Programming, Tutorial]
 comments: true
 ---
 
@@ -235,6 +236,6 @@ This was by far the most difficult step to figure out, especially since the docu
 
 ![Debug Intents Extension](/assets/images/DebugIntentsExtension.png)
 
----
+## Conclusion
 
-Check out Unified Remote in the [App Store](https://itunes.apple.com/us/app/unified-remote/id825534179?mt=8) or on [Google Play](https://play.google.com/store/apps/details?id=com.Relmtech.Remote)!
+I hope you found this useful. Feel free to leave feedback if I've missed any useful details. Also, why not check out Unified Remote in the [App Store](https://itunes.apple.com/us/app/unified-remote/id825534179?mt=8) or on [Google Play](https://play.google.com/store/apps/details?id=com.Relmtech.Remote)!
