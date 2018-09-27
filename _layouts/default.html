@@ -3,13 +3,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="/index.css" rel="stylesheet">
+    <link href="/assets/syntax.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     {% seo %}
   </head>
   <body>
     <div class="container-lg py-6">
       <div class="markdown-body">
+        {% include header.html %}
         {{ content }}
       </div>
     </div>
+    {% include footer.html %}
   </body>
 </html>
