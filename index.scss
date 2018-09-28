@@ -6,8 +6,17 @@
 @import "primer-layout/index.scss";
 @import "primer-utilities/index.scss";
 
+html, body {
+  height: 100%;
+}
+
+.wrap {
+  min-height: 100%;
+  overflow-x: auto;
+}
+
 .markdown-body {
-  padding: 1em;
+  padding: 1em 2em;
 }
 
 .container-lg {
@@ -41,25 +50,21 @@
 
 .projects {
   font-size: 2.6em;
-  color: #a0a0a0;
+  color: #a0a0a0;;
 
-  ul, li {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    white-space:nowrap;
+  div + div {
+    margin-top: 30px;
   }
 
-  li+li {
-    margin-top: 30px;
+  div {
+    white-space: nowrap;
+    overflow: visible;
   }
 
   span {
     color: #bbb;
     font-size: 2rem;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+    display: inline-block;
   }
 
   a {
@@ -143,6 +148,7 @@
 
 }
 
+
 footer {
   margin-top: 50px;
   background: #f6f8fa;
@@ -154,7 +160,6 @@ footer {
 @media (max-width: 600px) {
   .markdown-body {
     font-size: 0.9em;
-    padding: 1em 2em;
   }
 
   .projects {
@@ -162,6 +167,6 @@ footer {
   }
 
   .links {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 }
