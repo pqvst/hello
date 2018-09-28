@@ -11,9 +11,9 @@ A simple, straight-forward, step-by-step guide to implementing iOS 12 Siri Short
 
 ## Introduction
 
-Siri Shortcuts is a new feature in iOS 12 which enables 3rd party apps on iOS to be controlled using Siri. Essentially Siri "learns" as you use apps and then suggests actions. Furthermore, the new [Shortcuts app](https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8){:target="_blank"} let's you build more complex sequences of actions, which is actually really cool.
+Siri Shortcuts is a new feature in iOS 12 that enables 3rd party apps on iOS to be controlled using Siri. Essentially Siri "learns" as you use apps and then suggests actions. Furthermore, the new [Shortcuts app](https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8){:target="_blank"} let's you build more complex sequences of actions, which is actually really cool.
 
-For this tutorial I will be showing all of the steps I took to integrate shortcuts in [Unified Remote](https://itunes.apple.com/us/app/unified-remote/id825534179?mt=8){:target="_blank"}. Unified Remote is an app that turns your smartphone into a remote control for your computer. By integrating Shortcuts into Unified Remote you will be able to create shortcuts to a open remote on your device and send remote actions directly using Siri Shortcuts or the Shortcuts app.
+For this tutorial I will be showing all of the steps I took to integrate shortcuts in [Unified Remote](https://itunes.apple.com/us/app/unified-remote/id825534179?mt=8){:target="_blank"}. Unified Remote is an app that turns your smartphone into a remote control for your computer. By integrating Shortcuts into Unified Remote you will be able to create shortcuts to open a remote on your device and to send remote actions directly using Siri Shortcuts or the Shortcuts app.
 
 
 ## Implementing Shortcuts
@@ -33,12 +33,12 @@ This tutorial will cover all required steps for donating and implementing both o
 
 * Construct a `NSUserActivity` in `viewDidLoad` using an appropriate "activity type" string. 
 * Choose a title.
-* Make sure you enable `eligibleForPrediction`
+* Make sure you enable `eligibleForPrediction`.
 * Add any `userInfo` that you need to be able resume the screen later.
 * Set `requiredUserInfoKeys` (I'm not sure if this step is required).
-* IMPORTANT: Assign your `NSUserActivity` to the view controller's built-in `userActivity` property. The view controller automatically invokes `becomeCurrent` and `resignCurrent` for us. At first I tried doing this manually but that does not seem to work. 
+* IMPORTANT: Assign your `NSUserActivity` to the view controller's built-in `userActivity` property. The view controller automatically invokes `becomeCurrent` and `resignCurrent` for us. At first I tried doing this manually but that does not seem to work.
 
-Be sure to wrap your code with `@available(iOS 12.0, *)` if your app supports older versions of iOS. Choose an appropriate "activity type". You can choose whatever you want, but it should match whatever your user activity is.
+Be sure to wrap your code with `@available(iOS 12.0, *)` if your app supports older versions of iOS. Choose an appropriate "activity type" (e.g. your app identifier followed by a screen name).
 
 ```objective_c
 - (void)viewDidLoad
@@ -55,7 +55,7 @@ Be sure to wrap your code with `@available(iOS 12.0, *)` if your app supports ol
 }
 ```
 
-Also implement the `updateUserActivityState` function as well since (for whatever reason) the `userInfo` gets cleared by the system see [this Apple forums thread](https://forums.developer.apple.com/thread/9690){:target="_blank"} and [this medium article](https://medium.com/@edwardmp/common-misconception-when-creating-nsuseractivity-in-view-controller-3df8a825095b){:target="_blank"} for more details.
+2) Implement the `updateUserActivityState` method as well since (for whatever reason) the `userInfo` gets cleared by the system. See [this Apple forums thread](https://forums.developer.apple.com/thread/9690){:target="_blank"} and [this medium article](https://medium.com/@edwardmp/common-misconception-when-creating-nsuseractivity-in-view-controller-3df8a825095b){:target="_blank"} for more details.
 
 ```objective_c
 -(void)updateUserActivityState:(NSUserActivity *)userActivity 
@@ -79,7 +79,7 @@ Also implement the `updateUserActivityState` function as well since (for whateve
 * Open the screen in your app.
 * Go to iOS `Settings > Siri & Search` and check under `Suggested Shortcuts`. 
 
-Note, you may have to trigger it a few times, or select `All Shortcuts` and search for your shortcut.
+You may have to trigger it a few times, or select `All Shortcuts` and search for your shortcut.
 
 ![NSUserActivityTypes](/assets/images/UserActivityDemo.png)
 
@@ -98,8 +98,7 @@ Simply add the `continueUserActivity` handler to your `AppDelegate`.
         // Extract the remote ID from the user info
         NSString* id = [userActivity.userInfo objectForKey:@"ID"];
 
-        // Restore the user activity...
-        ...
+        // Restore the remote screen...
 
         return YES;
     }
@@ -132,6 +131,7 @@ Simply add the `continueUserActivity` handler to your `AppDelegate`.
 * Add one or more shortcut types. A shortcut type is essentially just a combination of parameters. For example, if you have valid types that accept different combinations of parameters then you have to create a type for each combination.
 * For each shortcut type, customize the title using the parameter values. 
 * Make sure to enable `Supports background execution` if you want to.
+* (You can also customize the response messages for success and failure if you wish to.)
 
 ![Configure Intent](/assets/images/ConfigureIntent.png)
 
@@ -195,7 +195,7 @@ This was by far the most difficult step to figure out, especially since the docu
 
 ![Add Intents Extension](/assets/images/AddIntentsExtension.png)
 
-3) Add the `Intents Definition File` to your `Intents Extension` target. Note: I tried moving the intents definition file to a shared Cocoa Touch Framework that both the main app and the intents extension had access to, however that does not seem to work. So, I recommend just adding both targets to the target membership setting instead.
+3) Add the `Intents Definition File` to your `Intents Extension` target. Note: I tried moving the intents definition file to a shared Cocoa Touch Framework that both the main app and the intents extension had access to, however that does not seem to work. So, I recommend leaving the intent definition file in the main app target and just adding the intents target to the target membership setting.
 
 * Select the intents definition file that you created previously.
 * Right-click `Show File Inspector`.
@@ -203,14 +203,19 @@ This was by far the most difficult step to figure out, especially since the docu
 
 ![Update Target Membership](/assets/images/UpdateIntentDefinitionFileTargetMemberships.png)
 
-3) Enable your custom intent in the Intents Extension
+3) Enable your custom intent in the Intents Extension.
 * Open `Info.plist` for your Intents Extension
 * Expand `NSExtension > NSExtensionAttributes > IntentsSupported`
 * Add the *full* intent name to the list (i.e. `[ClassPrefix][IntentName]Intent`).
 
 ![Update Intents Extension Info Plist](/assets/images/UpdateIntentExtensionInfoPlist.png)
 
-4) Open `IntentHandler.m` in your Intents Extension and implement your custom intent. Make sure to import your intent header and add your generated intent handling protocol as well (`[ClassPrefix][IntentName]IntentHandling`). 
+4) Open `IntentHandler.m` in your Intents Extension and implement your custom intent. 
+
+* Import your intent header.
+* Add your generated intent handling protocol (`[ClassPrefix][IntentName]IntentHandling`).
+* Implement your handling code.
+* Finish by sending a reponse code (e.g. `Failure` or `Success`) using the `completion` callback.
 
 ```objective_c
 #import "URActionIntent.h"
@@ -223,6 +228,10 @@ This was by far the most difficult step to figure out, especially since the docu
 
 - (void)handleAction:(nonnull URActionIntent *)intent completion:(nonnull void (^)(URActionIntentResponse * _Nonnull))completion {
     // Do something...
+
+    // Send response
+    URActionIntentResponse* response = [[URActionIntentResponse alloc] initWithCode:URActionIntentResponseCodeSuccess userActivity:nil];
+    completion(response);
 }
 
 @end
