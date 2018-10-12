@@ -238,13 +238,35 @@ This was by far the most difficult step to figure out, especially since the docu
 @end
 ```
 
-5) Keep in mind that the Intent Extension is a completely separate module, so if you need to access code from your main app you may need to refactor and share the code between the two targets. In my case, I decided to move a lot of my app backend logic to a new `Cocoa Touch Framework` target that both the main app target and the intents app target depend on. Note: Even "user defaults" are separate. However, you can share user defaults between both targets using [App Groups](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html).
-
-![Shared Framework](/assets/images/SharedFramework.png)
+5) Keep in mind that the Intent Extension is a completely separate module, so if you need to access code from your main app you may need to refactor and share the code between the two targets. I basically just moved a lot of the shared core logic into a new folder called "Shared" and added these files to both targets (main app and intent extension). Note: Even "user defaults" are separate. However, you can share user defaults between both targets using [App Groups](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionScenarios.html).
 
 6) To test and debug your `Intent Extension`, choose the intent target and click run. When asked to choose an app to run click `Siri`. Once Siri starts on your phone you can test your shortcut there, or switch to the Shortcuts app and test it there as well.
 
 ![Debug Intents Extension](/assets/images/shortcuts/DebugIntentsExtension.png)
+
+## Tips & Troubleshooting
+
+### Suggested Shortcuts not updating
+Occasionally iOS stops responding to donated shortcuts for some reason. I'm not exactly sure why this happens, but it seems you can clear up the issue by doing the following:
+
+1. Remove all saved shortcuts
+2. Uninstall your app
+3. Restart your device
+
+### New shortcuts not appearing in the Shortcuts app
+It seems that new donated shortcuts don't immediatley appear in the Shortcuts app. However, you can force the app to detect new shortcuts by force quitting the Shortcuts app and then opening it again.
+
+### Targeting iOS 8 (backwards compatibility)
+According to Apple's documentation, it is possible to include intents in apps targeting iOS 8 or higher. Obviously, if the device isn't running iOS 12 then shortcuts won't work, however the app itself should still function on older versions of iOS. *However*, it seems that there is a bug in the iOS 8 simulator. If you try to run an app that includes an Intent Definition File in the iOS 8 simulator then the app will crash immediately.
+
+```
+dyld: Library not loaded: /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+  Referenced from: /System/Library/Frameworks/Intents.framework/Intents
+  Reason: no suitable image found.  Did find:
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices: mach-o, but not built for iOS simulator
+```
+
+I created a [StackOverflow issue](https://stackoverflow.com/questions/52577845/ios-app-targeting-8-with-an-intent-extension-crashes-in-the-simulator) and started an [Apple Developer forums thread](https://forums.developer.apple.com/message/333384) to try to figure out what the problem was. However, this did not lead anywhere. Eventually I created an Apple TSI (Technical Support Incident). After a couple of days I just received a reply saying that my issue would be better suited as a bug report. So finally, I submitted a bug report. I won't be holding my breath, especially considering how few people still use iOS 8.
 
 ## Conclusion
 
