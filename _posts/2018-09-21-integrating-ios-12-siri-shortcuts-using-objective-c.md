@@ -268,6 +268,20 @@ dyld: Library not loaded: /System/Library/Frameworks/CoreServices.framework/Vers
 
 I created a [StackOverflow issue](https://stackoverflow.com/questions/52577845/ios-app-targeting-8-with-an-intent-extension-crashes-in-the-simulator) and started an [Apple Developer forums thread](https://forums.developer.apple.com/message/333384) to try to figure out what the problem was. However, this did not lead anywhere. Eventually I created an Apple TSI (Technical Support Incident). After a couple of days I just received a reply saying that my issue would be better suited as a bug report. So finally, I submitted a bug report. I won't be holding my breath, especially considering how few people still use iOS 8.
 
+### Localizing your Intents Definition File
+If your app is localized then you *have to* localize your custom intents (i.e. your intents definition file). Otherwise you will receive an error when uploading your app to the App Store:
+
+```
+Invalid Siri Support - Localized title for custom intent: "<action>" not found for locale: <locale>
+```
+
+To localize your intent defintion file:
+1) Select it in the project navigator.
+2) Click "Localize..." in the File Inspector (right panel).
+3) Move the current file to your default language (e.g. English).
+4) Select your other languages and provide localized strings.
+
+
 ## Conclusion
 
 I hope you found this useful. Feel free to leave feedback if I've missed any useful details. Also, why not check out Unified Remote in the [App Store](https://itunes.apple.com/us/app/unified-remote/id825534179?mt=8) or on [Google Play](https://play.google.com/store/apps/details?id=com.Relmtech.Remote)!
