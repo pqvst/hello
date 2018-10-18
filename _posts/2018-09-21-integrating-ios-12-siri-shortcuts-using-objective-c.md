@@ -256,6 +256,9 @@ Occasionally iOS stops responding to donated shortcuts for some reason. I'm not 
 ### New shortcuts not appearing in the Shortcuts app
 It seems that new donated shortcuts don't immediatley appear in the Shortcuts app. However, you can force the app to detect new shortcuts by force quitting the Shortcuts app and then opening it again.
 
+### Custom error messages in the Shortcuts app
+It seems that custom error responses from an interaction shortcut aren't supported in the Shortcuts app. It just shows an alert saying "An unknown error occured". However, if the shortcut is triggered directly from Siri, then the actual error messsage configured in the custom intent is shown.
+
 ### Targeting iOS 8 (backwards compatibility)
 According to Apple's documentation, it is possible to include intents in apps targeting iOS 8 or higher. Obviously, if the device isn't running iOS 12 then shortcuts won't work, however the app itself should still function on older versions of iOS. *However*, it seems that there is a bug in the iOS 8 simulator. If you try to run an app that includes an Intent Definition File in the iOS 8 simulator then the app will crash immediately.
 
