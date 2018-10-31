@@ -162,6 +162,18 @@ footer {
 }
 
 
+p.details {
+  cursor: default;
+
+  span.date, span.tag {
+    color: #bbb;
+    font-size: 0.9em;  
+  }
+
+}
+
+
+
 @media (max-width: 600px) {
   .markdown-body {
     font-size: 0.9em;
