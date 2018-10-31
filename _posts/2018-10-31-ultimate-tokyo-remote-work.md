@@ -52,5 +52,5 @@ Sometimes it's nice to work outside, especially if the weather is comfortable. G
 ## Map
 
 <a href="https://drive.google.com/open?id=1JsJkjZYKA7A7s52w9MYuGBN3EVS9WBNP&usp=sharing" target="_blank">
-![Shortcuts Demo](/assets/images/maps/tokyo-remote-work.png)
+![Ultimate Tokyo Remote Work](/assets/images/maps/tokyo-remote-work.png)
 </a>

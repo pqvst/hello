@@ -73,8 +73,14 @@ There are lots of areas and places to explore in Tokyo. Whether your looking for
 
 
 ## Food Allies
+- [Tokyu Food Show (in Shibuya)](https://goo.gl/maps/BqXThvPneTG2) ★
 - [Shinjuku Yokocho](https://goo.gl/maps/wxH9Yt1Kce62)
 - [Ebisu Yokocho](https://goo.gl/maps/VGLyrYxjM1L2)
-- [Tokyu Food Show (in Shibuya)](https://goo.gl/maps/BqXThvPneTG2)
 - [Kitchen Street Tokyo Station](https://goo.gl/maps/mx8bd4pTKhw)
 - [Shibuya Niku "Meat" Yokocho](https://goo.gl/maps/L336aArQp8R2)
+
+
+## Map
+<a href="https://drive.google.com/open?id=1wyVoa49MJRxHjPxixUBu9PkvSGxo-azh&usp=sharing" target="_blank">
+![Ultimate Tokyo Fun](/assets/images/maps/tokyo-fun.png)
+</a>

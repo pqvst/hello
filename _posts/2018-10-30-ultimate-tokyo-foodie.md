@@ -109,6 +109,7 @@ Tokyo is by far my favorite food city. Not only can you find all types of amazin
 - Bar Tram (in Ebisu)
 - Bar Triad (in Ebisu)
 - JBA Bar Suzuki (in Ginza)
+- MOON Lounge Bar (in Roppongi)
 
 ## Sandwiches
 - Buy Me Stand (in Shibuya / Ebisu) ★
@@ -122,8 +123,8 @@ Tokyo is by far my favorite food city. Not only can you find all types of amazin
 - Senbikiya (multiple locations)
 
 ## Food Allies
+- [Tokyu Food Show (in Shibuya)](https://goo.gl/maps/BqXThvPneTG2) ★
 - [Shinjuku Yokocho](https://goo.gl/maps/wxH9Yt1Kce62)
 - [Ebisu Yokocho](https://goo.gl/maps/VGLyrYxjM1L2)
-- [Tokyu Food Show (in Shibuya)](https://goo.gl/maps/BqXThvPneTG2)
 - [Kitchen Street Tokyo Station](https://goo.gl/maps/mx8bd4pTKhw)
 - [Shibuya Niku "Meat" Yokocho](https://goo.gl/maps/L336aArQp8R2)
