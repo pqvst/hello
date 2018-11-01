@@ -168,6 +168,17 @@ footer {
   background: #f6f8fa;
   text-align: center;
   padding: 30px;
+
+  .copyright {
+    margin-top: 10px;
+    font-size: 0.8em;
+    opacity: 0.5;
+
+    a {
+      color: inherit;
+    }
+  }
+
 }
 
 
