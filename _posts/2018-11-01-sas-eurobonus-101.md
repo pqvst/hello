@@ -5,7 +5,7 @@ tags: [Travel, Flying, EuroBonus]
 comments: true
 ---
 
-Earn up to **22.500 points**, enough for a free round-trip to anywhere in the Nordics (including Svalbard and the Faro Islands) when you sign up for a SAS American Express credit card. Offer is valid until November 7, 2018. All cards are free during the first 3 months and can be cancelled at any time. [See Offer](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
+Earn up to **22.500 points**, enough for a free round-trip to anywhere in the Nordics (including Svalbard and the Faro Islands) when you sign up for a SAS American Express credit card. Offer is valid until November 7, 2018. All cards are free during the first 3 months and can be cancelled at any time. [See Offer](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 
 
 ## TL;DR
@@ -22,7 +22,7 @@ EuroBonus is a Frequent Flyer Program (loyalty program) by SAS. As a EuroBonus m
 
 
 ### Star Alliance (*A)
-SAS is a member of Star Alliance. This means you can earn points and book award flights using other airlines than just SAS. For example: Singapore Airlines, Thai, ANA, Lufthansa, Swiss, United, Air Canada, and more. For a full list of partners and terms refer to the partner [Earn](https://www.flysas.com/en/eurobonus/earn-points/) and [Spend](https://www.flysas.com/en/eurobonus/spend-points/) lists.
+SAS is a member of Star Alliance. This means you can earn points and book award flights using other airlines than just SAS. For example: Singapore Airlines, Thai, ANA, Lufthansa, Swiss, United, Air Canada, and more. For a full list of partners and terms refer to the partner [Earn](https://www.flysas.com/en/eurobonus/earn-points/){:target="_blank"} and [Spend](https://www.flysas.com/en/eurobonus/spend-points/){:target="_blank"} lists.
 
 
 ### Revenue / Award
@@ -32,14 +32,14 @@ In general, you can purchase flight tickets in two ways:
 
 
 ### Travel Classes
-With SAS there are 3 main [Travel Classes](https://www.flysas.com/en/fly-with-us/travel-classes/):
+With SAS there are 3 main [Travel Classes](https://www.flysas.com/en/fly-with-us/travel-classes/){:target="_blank"}:
 * Go - Economy
 * Plus - Premium Economy
 * Business - Business
 
 
 ### Membership Levels
-Your EuroBonus status determines the benefits you receive, such as upgrades, lounge access, business check-in, priority access, free luggage, point bonuses, and more. There are 4 main [Membership Levels](https://www.flysas.com/en/eurobonus/membership-levels/):
+Your EuroBonus status determines the benefits you receive, such as upgrades, lounge access, business check-in, priority access, free luggage, point bonuses, and more. There are 4 main [Membership Levels](https://www.flysas.com/en/eurobonus/membership-levels/){:target="_blank"}:
 * Member - EBB
 * Silver - EBS
 * Gold - EBG
@@ -110,10 +110,10 @@ There are 2 main SAS branded credit card providers:
 You can also earn points using the non-SAS branded Amex cards (such as Amex Gold or Amex Platinum). With these cards you earn Amex *Membership Rewards* instead. However, these can be converted to *SAS EuroBonus Extra Points*.
 
 
-### [SAS EuroBonus MasterCard](https://saseurobonusmastercard.se)
+### [SAS EuroBonus MasterCard](https://saseurobonusmastercard.se){:target="_blank"}
 Earn *Extra Points* for every 100 kr you spend. The *Platinum* card also gives you a monthly 1.000 *Base Point* bonus and access to *Fly Premium*. Both cards offer a one-time *Extra Points* welcome bonus.
 
-#### [SAS EuroBonus MasterCard Premium](https://saseurobonusmastercard.se/korten/mastercard-premium/)
+#### [SAS EuroBonus MasterCard Premium](https://saseurobonusmastercard.se/korten/mastercard-premium/){:target="_blank"}
 * 10.000 *Extra Points* sign up bonus
 * FlyPremium benefits
 * 12.000 *Base Points* bonus every year
@@ -121,35 +121,35 @@ Earn *Extra Points* for every 100 kr you spend. The *Platinum* card also gives y
 * 20 *Extra Points* per 100 kr abroad
 * 25 *Extra Points* per 100 kr when buying SAS flights
 
-#### [SAS EuroBonus MasterCard](https://saseurobonusmastercard.se/korten/mastercard/)
+#### [SAS EuroBonus MasterCard](https://saseurobonusmastercard.se/korten/mastercard/){:target="_blank"}
 * 3.000 *Extra Points* sign up bonus
 * 10 *Extra Points* per 100 kr
 * 15 *Extra Points* per 100 kr abroad
 * 20 *Extra Points* per 100 kr when buying SAS flights
 
 
-### [SAS EuroBonus Amex](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
-Earn *Extra Points* for every 100 kr you spend. The *Elite* card also gives you a yearly 20.000 *Base Point* bonus, which guarantees you EuroBonus Silver status. All cards offer *2-for-1 Vouchers*. You also receive a large *Extra Points* welcome bonus when signing up for a card using a [referral](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550).
+### [SAS EuroBonus Amex](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+Earn *Extra Points* for every 100 kr you spend. The *Elite* card also gives you a yearly 20.000 *Base Point* bonus, which guarantees you EuroBonus Silver status. All cards offer *2-for-1 Vouchers*. You also receive a large *Extra Points* welcome bonus when signing up for a card using a [referral](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}.
 
-#### [SAS EuroBonus Amex Elite](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
+#### [SAS EuroBonus Amex Elite](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 * Travel insurance
-* 22.500 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
+* 22.500 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 * Two *2-for-1 Vouchers* per year
 * 20.000 *Base Points* bonus every year
 * 20 *Extra Points* per 100 kr
 * 25 *Extra Points* per 100 kr abroad
 * 30 *Extra Points* per 100 kr when buying SAS flights
 
-#### [SAS EuroBonus Amex Premium](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
+#### [SAS EuroBonus Amex Premium](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 * Travel insurance
-* 15.000 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
+* 15.000 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 * One *2-for-1 Voucher* per year
 * 15 *Extra Points* per 100 kr
 * 20 *Extra Points* per 100 kr abroad
 * 25 *Extra Points* per 100 kr when buying SAS flights
 
-#### [SAS EuroBonus Amex Classic](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
-* 7.500 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
+#### [SAS EuroBonus Amex Classic](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+* 7.500 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 * One *2-for-1 Voucher* (only SAS within Europe) per year
 * 10 *Extra Points* per 100 kr
 * 15 *Extra Points* per 100 kr abroad
@@ -178,7 +178,7 @@ Here is a complete worked example:
 | Activity | Base Points | Extra Points |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|----------------:|----------------:|
 | You sign up for a EuroBonus account on September 15, 2018. | 0 | 0 |
-| You sign up for a SAS Amex Elite Card with a [referral](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550) sign up bonus. The Elite card also gives you a yearly 20.000 Base Point bonus (giving you EuroBonus Silver status). | +20.000 =20.000 | +18.000 =18.000 |
+| You sign up for a SAS Amex Elite Card with a [referral](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"} sign up bonus. The Elite card also gives you a yearly 20.000 Base Point bonus (giving you EuroBonus Silver status). | +20.000 =20.000 | +18.000 =18.000 |
 | You fly round-trip in Go to Tokyo | +4.800 =24.800 | +4.800 =22.800 |
 | You fly round-trip in Plus to London | +3.000 =27.800 | +3.000 =25.800 |
 | You use your SAS Amex Elite card for your monthly shopping and other purchases. If you spend more than 150.000 SEK you get a 2-for-1 voucher | - =27.800 | +40.000 =65.800 |
@@ -187,15 +187,15 @@ Here is a complete worked example:
 
 
 ## Finding Awards
-* [AwardFares - Award Fare Search Engine](https://awardfares.com)
-* [SAS Award Search](https://www.sas.se/)
-* [SAS Star Alliance Award Search](https://www.sas.se/eurobonus/star-alliance-award-trips/)
-* [United Award Search](https://www.united.com/ual/en/us/flight-search/book-a-flight/redeemmiles)
+* [AwardFares - Award Fare Search Engine](https://awardfares.com){:target="_blank"}
+* [SAS Award Search](https://www.sas.se/){:target="_blank"}
+* [SAS Star Alliance Award Search](https://www.sas.se/eurobonus/star-alliance-award-trips/){:target="_blank"}
+* [United Award Search](https://www.united.com/ual/en/us/flight-search/book-a-flight/redeemmiles){:target="_blank"}
 
 
 ## Useful Links
-* [SAS Point Tables](https://www.flysas.com/en/eurobonus/point-tables/)
-* [SAS Partners - Earn Points](https://www.flysas.com/en/eurobonus/earn-points/)
-* [SAS Partners - Spend Points](https://www.flysas.com/en/eurobonus/spend-points/)
-* [SAS Plusgrade](https://www.flysas.com/en/fly-with-us/travel-extras/upgrades/)
+* [SAS Point Tables](https://www.flysas.com/en/eurobonus/point-tables/){:target="_blank"}
+* [SAS Partners - Earn Points](https://www.flysas.com/en/eurobonus/earn-points/){:target="_blank"}
+* [SAS Partners - Spend Points](https://www.flysas.com/en/eurobonus/spend-points/){:target="_blank"}
+* [SAS Plusgrade](https://www.flysas.com/en/fly-with-us/travel-extras/upgrades/){:target="_blank"}
 
