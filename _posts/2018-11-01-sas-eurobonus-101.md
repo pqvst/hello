@@ -18,7 +18,7 @@ Earn up to **22.500 points**, enough for a free round-trip to anywhere in the No
 ## Basics
 
 ### EuroBonus
-EuroBonus is a Frequent Flyer Program (loyalty program) by SAS. As a EuroBonus member you earn points by flying with SAS and other partner airlines. You can also earn points by using a SAS branded credit card, booking cars, hotels, and more. You can then book flights using your points, which in general is very lucrative. Being a EuroBonus is *completely* free. There are no hidden costs.
+EuroBonus is a Frequent Flyer Program (loyalty program) by SAS. As a EuroBonus member you earn points by flying with SAS and other partner airlines. You can also earn points by using a SAS branded credit card, booking cars, hotels, and more. You can then book flights using your points, which in general is very lucrative. Being a EuroBonus is *completely* free. There are no hidden costs. |Join EuroBonus](https://www.sas.se/en/eurobonus/)
 
 
 ### Star Alliance (*A)
