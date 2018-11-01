@@ -5,7 +5,7 @@ tags: [Travel, Flying, EuroBonus]
 comments: true
 ---
 
-Earn **25% more points** (up to 22.500 points) which is enough for a free round-trip to anywhere in the Nordics (including Svalbard and the Faro Islands) when you sign up for a SAS American Express credit card. Offer is valid until November 7, 2018. All cards are free during the first 3 months and can be cancelled at any time. [See Offer](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
+Earn up to **22.500 points**, enough for a free round-trip to anywhere in the Nordics (including Svalbard and the Faro Islands) when you sign up for a SAS American Express credit card. Offer is valid until November 7, 2018. All cards are free during the first 3 months and can be cancelled at any time. [See Offer](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550)
 
 
 ## TL;DR
