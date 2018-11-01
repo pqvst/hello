@@ -5,7 +5,9 @@
   <body>
     <div class="container-lg py-6"> 
       <div class="markdown-body">
-        {% include header.html %}
+        <div class="brand">
+          <a href="/posts/"><i class="fa fa-code"></i> <em>pqvst</em></a>
+        </div>
         <h1>{{ page.title }}</h1>
         <p class="details">
           <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
