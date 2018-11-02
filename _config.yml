@@ -27,6 +27,7 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
   - rouge
 
 twitter:
