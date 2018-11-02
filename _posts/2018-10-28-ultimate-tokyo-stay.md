@@ -14,13 +14,13 @@ Public transportation in Tokyo is amazing. You can pretty much get from anywhere
 ## Areas
 
 ### Shibuya
-I always recommend people to stay near Shibuya. It's crowded and chaotic, but has an amazing wibe. It's a hot spot for things to do, an amazing selection of restaurants, the famous Shibuya crossing, nightlife, shopping, and great access to public transportation. From Shibuya station you can get anywhere in Tokyo so it's a great place to start and end your day.
+I always recommend people to stay near Shibuya. It's crowded and chaotic, but has an amazing wibe. It's a hot spot for things to do, has an amazing selection of restaurants, the famous Shibuya crossing, nightlife, shopping, and great access to public transportation. From Shibuya station you can get anywhere in Tokyo so it's a great place to start and end your day.
 
 ### Harajuku / Omotesando
-Harajuku is write by Yoyogi park, has lots of vintage/hipster clothes shops, but is still within walking distance to Shibuya. Further to the east you reach Omotesando which is more upscale with all the luxury brands and an Apple store. The area is great for shopping and cafes, but gets very crowded during weekends.
+Harajuku is right by Yoyogi park, has lots of vintage/hipster clothes shops, but is still within walking distance to Shibuya. Further to the east you reach Omotesando which is more upscale with all the luxury brands and an Apple store. The area is great for shopping and cafes, but gets very crowded during weekends.
 
 ### Ebisu / Daikanyama / Nakameguro
-This is area is a personal favorite of mine. It's a smaller, less crowded downtown area, but still has a great vibe. It's also within walking distance to Shibuya (or one stop away on the JR Yamanote Line). A bit to the west you reach Daikanyama and Nakameguro (quieter hipstery areas with lots of small shops, cafes, and restaurants).
+This area is a personal favorite of mine. It's a smaller, less crowded downtown area, but still has a great vibe. It's also within walking distance to Shibuya (or one stop away on the JR Yamanote Line). A bit to the west you reach Daikanyama and Nakameguro (quieter hipstery areas with lots of small shops, cafes, and restaurants).
 
 ### Roppongi
 While not on the JR Yamanote Line there is still a lot to do in Roppongi there are several Subway lines that connect you to other areas of Tokyo, convinentaly located between the other areas.
