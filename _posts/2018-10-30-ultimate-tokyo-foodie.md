@@ -128,3 +128,9 @@ Tokyo is by far my favorite food city. Not only can you find all types of amazin
 - [Ebisu Yokocho](https://goo.gl/maps/VGLyrYxjM1L2)
 - [Kitchen Street Tokyo Station](https://goo.gl/maps/mx8bd4pTKhw)
 - [Shibuya Niku "Meat" Yokocho](https://goo.gl/maps/L336aArQp8R2)
+
+
+## More Ultimate Tokyo
+* [Ultimate Tokyo Fun](/2018/10/29/ultimate-tokyo-fun/) - Best Attractions, Areas, and Shopping
+* [Ultimate Tokyo Stay](/2018/10/28/ultimate-tokyo-stay/) - Best Areas and Hotels
+* [Ultimate Tokyo Remote Work](/2018/10/31/ultimate-tokyo-remote-work/) - Best Cafes and Coworking Spaces

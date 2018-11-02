@@ -54,3 +54,9 @@ Sometimes it's nice to work outside, especially if the weather is comfortable. G
 <a href="https://drive.google.com/open?id=1JsJkjZYKA7A7s52w9MYuGBN3EVS9WBNP&usp=sharing" target="_blank">
 ![Ultimate Tokyo Remote Work](/assets/images/maps/tokyo-remote-work.png)
 </a>
+
+
+## More Ultimate Tokyo
+* [Ultimate Tokyo Fun](/2018/10/29/ultimate-tokyo-fun/) - Best Attractions, Areas, and Shopping
+* [Ultimate Tokyo Foodie](/2018/10/30/ultimate-tokyo-foodie/) - Best Restaurants, Cafes, and Bars
+* [Ultimate Tokyo Stay](/2018/10/28/ultimate-tokyo-stay/) - Best Areas and Hotels

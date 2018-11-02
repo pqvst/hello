@@ -84,3 +84,9 @@ There are lots of areas and places to explore in Tokyo. Whether your looking for
 <a href="https://drive.google.com/open?id=1wyVoa49MJRxHjPxixUBu9PkvSGxo-azh&usp=sharing" target="_blank">
 ![Ultimate Tokyo Fun](/assets/images/maps/tokyo-fun.png)
 </a>
+
+
+## More Ultimate Tokyo
+* [Ultimate Tokyo Foodie](/2018/10/30/ultimate-tokyo-foodie/) - Best Restaurants, Cafes, and Bars
+* [Ultimate Tokyo Stay](/2018/10/28/ultimate-tokyo-stay/) - Best Areas and Hotels
+* [Ultimate Tokyo Remote Work](/2018/10/31/ultimate-tokyo-remote-work/) - Best Cafes and Coworking Spaces
