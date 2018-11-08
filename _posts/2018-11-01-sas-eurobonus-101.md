@@ -5,7 +5,7 @@ tags: [Travel, Flying, EuroBonus]
 comments: true
 ---
 
-Earn up to **22.500 points**, enough for a free round-trip to anywhere in the Nordics (including Svalbard and the Faro Islands) when you sign up for a SAS American Express credit card. Offer is valid until November 7, 2018. All cards are free during the first 3 months and can be cancelled at any time. [See Offer](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+Earn up to **18.000 points**, when you sign up for a SAS American Express credit card. All cards are free during the first 3 months and can be cancelled at any time. [See Offer](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 
 
 ## TL;DR
@@ -133,7 +133,7 @@ Earn *Extra Points* for every 100 kr you spend. The *Elite* card also gives you 
 
 #### [SAS EuroBonus Amex Elite](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 * Travel insurance
-* 22.500 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+* 18.000 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 * Two *2-for-1 Vouchers* per year
 * 20.000 *Base Points* bonus every year
 * 20 *Extra Points* per 100 kr
@@ -149,7 +149,7 @@ Earn *Extra Points* for every 100 kr you spend. The *Elite* card also gives you 
 * 25 *Extra Points* per 100 kr when buying SAS flights
 
 #### [SAS EuroBonus Amex Classic](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
-* 7.500 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+* 6.000 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
 * One *2-for-1 Voucher* (only SAS within Europe) per year
 * 10 *Extra Points* per 100 kr
 * 15 *Extra Points* per 100 kr abroad
