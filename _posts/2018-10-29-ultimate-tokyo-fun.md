@@ -7,7 +7,7 @@ redirect_from:
   - /tokyofood/
 ---
 
-There are lots of areas and places to explore in Tokyo. Whether your looking for shopping, good views, or retro arcade games you can find whatever you're interested in. Here is a collection of some of my favorite spots to visit when I'm in Tokyo. Most of these places are actually free so there is plenty to do even if you have a tight budget.
+There are lots of areas and places to explore in Tokyo. Whether you're looking for shopping, good views, or retro arcade games you can find whatever you're interested in. Here is a collection of some of my favorite spots to visit when I'm in Tokyo. Most of these places are actually free so there is plenty to do even if you have a tight budget.
 
 ## Areas to Explore:
 - Shibuya-Harajuku-Omotesando
