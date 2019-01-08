@@ -22,6 +22,7 @@ Tokyo is by far my favorite food city. Not only can you find all types of amazin
 - Oborodzuki (Tsukemen in Ginza)
 - Tenkaippin (multiple locations)
 - Mitaseimenjo (multiple locations)
+- Tsuta (Michelin Star ramen)
 
 ## Yakiniku / Teppanyaki / Shabu Shabu
 - Gyukaku (multiple locations) ★
