@@ -5,7 +5,7 @@ tags: [Travel, Flying, EuroBonus]
 comments: true
 ---
 
-Earn up to **18.000 points**, when you sign up for a SAS American Express credit card. All cards are free during the first 3 months and can be cancelled at any time. [See Offer](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+Earn up to **18.000 points**, when you sign up for a SAS American Express credit card. All cards are free during the first 3 months and can be cancelled at any time. [See Offer](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"}
 
 
 ## TL;DR
@@ -128,28 +128,28 @@ Earn *Extra Points* for every 100 kr you spend. The *Platinum* card also gives y
 * 20 *Extra Points* per 100 kr when buying SAS flights
 
 
-### [SAS EuroBonus Amex](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
-Earn *Extra Points* for every 100 kr you spend. The *Elite* card also gives you a yearly 20.000 *Base Point* bonus, which guarantees you EuroBonus Silver status. All cards offer *2-for-1 Vouchers*. You also receive a large *Extra Points* welcome bonus when signing up for a card using a [referral](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}.
+### [SAS EuroBonus Amex](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"}
+Earn *Extra Points* for every 100 kr you spend. The *Elite* card also gives you a yearly 20.000 *Base Point* bonus, which guarantees you EuroBonus Silver status. All cards offer *2-for-1 Vouchers*. You also receive a large *Extra Points* welcome bonus when signing up for a card using a [referral](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"}.
 
-#### [SAS EuroBonus Amex Elite](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+#### [SAS EuroBonus Amex Elite](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"}
 * Travel insurance
-* 18.000 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+* 18.000 *Extra Points* [referral sign up bonus](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"}
 * Two *2-for-1 Vouchers* per year
 * 20.000 *Base Points* bonus every year
 * 20 *Extra Points* per 100 kr
 * 25 *Extra Points* per 100 kr abroad
 * 30 *Extra Points* per 100 kr when buying SAS flights
 
-#### [SAS EuroBonus Amex Premium](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+#### [SAS EuroBonus Amex Premium](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"}
 * Travel insurance
-* 15.000 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+* 15.000 *Extra Points* [referral sign up bonus](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"}
 * One *2-for-1 Voucher* per year
 * 15 *Extra Points* per 100 kr
 * 20 *Extra Points* per 100 kr abroad
 * 25 *Extra Points* per 100 kr when buying SAS flights
 
-#### [SAS EuroBonus Amex Classic](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
-* 6.000 *Extra Points* [referral sign up bonus](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"}
+#### [SAS EuroBonus Amex Classic](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"}
+* 6.000 *Extra Points* [referral sign up bonus](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"}
 * One *2-for-1 Voucher* (only SAS within Europe) per year
 * 10 *Extra Points* per 100 kr
 * 15 *Extra Points* per 100 kr abroad
@@ -178,7 +178,7 @@ Here is a complete worked example:
 | Activity | Base Points | Extra Points |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|----------------:|----------------:|
 | You sign up for a EuroBonus account on September 15, 2018. | 0 | 0 |
-| You sign up for a SAS Amex Elite Card with a [referral](http://www.americanexpress.se/bjudin/philibCuV4?CPID=999999550){:target="_blank"} sign up bonus. The Elite card also gives you a yearly 20.000 Base Point bonus (giving you EuroBonus Silver status). | +20.000 =20.000 | +18.000 =18.000 |
+| You sign up for a SAS Amex Elite Card with a [referral](www.americanexpress.se/bjudin/philibzdc1?CPID=100329180){:target="_blank"} sign up bonus. The Elite card also gives you a yearly 20.000 Base Point bonus (giving you EuroBonus Silver status). | +20.000 =20.000 | +18.000 =18.000 |
 | You fly round-trip in Go to Tokyo | +4.800 =24.800 | +4.800 =22.800 |
 | You fly round-trip in Plus to London | +3.000 =27.800 | +3.000 =25.800 |
 | You use your SAS Amex Elite card for your monthly shopping and other purchases. If you spend more than 150.000 SEK you get a 2-for-1 voucher | - =27.800 | +40.000 =65.800 |
