@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Ultimate Tokyo Food: Best Restaurants, Cafes, and Bars"
-tags: [Travel, Japan, Tokyo]
+title:  "Tokyo Food: Best Restaurants, Cafes, and Bars"
+tags: [Travel, Japan, Tokyo, Food]
 comments: true
 ---
 

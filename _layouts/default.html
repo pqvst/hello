@@ -1,16 +1,56 @@
 <html>
-  <head>
-    {% include head.html %}
+  <head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="/assets/css/index.css" rel="stylesheet">
+    <link href="/assets/syntax.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/atom+xml" title="AwardFares Blog" href="/feed.xml" />
+
+    {% seo %}
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/meta/favicon-16x16.png">
+    <link rel="manifest" href="/meta/site.webmanifest">
+    <link rel="mask-icon" href="/meta/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87635117-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-87635117-1');
+    </script>
   </head>
   <body>
     <div class="wrap">
-      <div class="container-lg py-6">
-        <div class="markdown-body">
-          {% include header.html %}
-          {{ content }}
-        </div>
-      </div>
-      {% include footer.html %}
+
+      <header>
+        <a href="/" class="brand">pqvst</a>
+        <a href="/" {% if page.url == '/' %}class="active"{% endif %}>Projects</a>
+        <a href="/posts" {% if page.url == '/posts/' %}class="active"{% endif %}>Blog</a>
+        <a href="/about" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
+        <a href="/feed.xml">RSS</a>
+      </header>
+
+      <main>{{content}}</main>
+      
     </div>
+    <footer>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/philip-bergqvist-733a4214" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://twitter.com/pqvst" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/pqvst" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://medium.com/@pqvst" target="_blank"><i class="fa fa-medium"></i></a>
+        <a href="mailto:hello@pqvst.com" target="_blank"><i class="fa fa-envelope"></i></a>
+      </div>
+      <div class="copyright">
+          Copyright &copy; 2012-{{ site.time | date: '%Y' }} pqvst
+      </div>
+    </footer>
   </body>
 </html>

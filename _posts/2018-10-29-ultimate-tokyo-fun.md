@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ultimate Tokyo Fun: Best Attractions, Areas, and Shopping"
+title:  "Tokyo Fun: Best Attractions, Areas, and Shopping"
 tags: [Travel, Japan, Tokyo]
 comments: true
 redirect_from:

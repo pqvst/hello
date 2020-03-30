@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ultimate Tokyo Stay: Best Areas and Hotels"
+title:  "Tokyo Stay: Best Areas and Hotels"
 tags: [Travel, Japan, Tokyo]
 comments: true
 ---

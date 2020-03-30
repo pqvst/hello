@@ -1,17 +1,14 @@
 encoding: UTF-8
 
-title: "pqvst"
-
-description: "pqvst"
-
-theme: jekyll-theme-primer
+url: "https://pqvst.com"
+title: pqvst
+description: pqvst
 
 markdown: kramdown
+highlighter: rouge
 
 kramdown:
   auto_ids: true
-
-highlighter: rouge
 
 permalink: pretty
 
@@ -21,21 +18,21 @@ exclude:
   - package-lock.json
   - node_modules
 
-sass:
-  sass_dir: ./
-  style: compressed
-
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - rouge
 
-twitter:
-  username: pqvst
-
-author:
-  name: Philip Bergqvist
-  twitter: pqvst
+exclude:
+  - .git/
+  - .gitignore
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - package.json
+  - yarn.lock
 
 defaults:
   - scope:

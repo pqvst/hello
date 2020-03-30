@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Ultimate Tokyo Remote Work: Best Cafes and Coworking Spaces"
-tags: [Travel, Japan, Tokyo]
+title:  "Tokyo Work: Best Cafes and Coworking Spaces"
+tags: [Travel, Japan, Tokyo, Remote Work, Digital Nomad]
 comments: true
 ---
 
