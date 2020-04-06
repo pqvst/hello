@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "BrowserFrame",
+    "short_name": "BrowserFrame",
     "icons": [
         {
             "src": "/meta/android-chrome-192x192.png",
