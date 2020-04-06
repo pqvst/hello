@@ -28,11 +28,11 @@ The workaround I use now is that the background (background color and shadow) an
 
 ```js
 const backgroundCanvas = document.createElement('canvas');
-const backgroundCtx = background.getContext('2d');
+const backgroundCtx = backgroundCanvas.getContext('2d');
 // draw background and shadow...
 
 const foregroundCanvas = document.createElement('canvas');
-const foregroundCtx = background.getContext('2d');
+const foregroundCtx = foregroundCanvas.getContext('2d');
 // draw browser frame...
 ```
 
