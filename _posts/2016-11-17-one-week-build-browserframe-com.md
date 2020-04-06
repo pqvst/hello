@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "One Week Build: BrowserFrame.com"
-tags: ["JavaScript", "Nodejs", "Airbnb", "Web Development"]
-tags: ["JavaScript", "Vuejs", "Nodejs", "Web Development", "Startup"]
+tags: [BrowserFrame, "JavaScript", "Vuejs", "Nodejs", "Web Development", "Startup"]
 ---
 
 A one week build. A free tool that helps you wrap screenshots in different browser frames. Supports Chrome, Firefox, Safari, and more. Built with [node.js](https://nodejs.org/en/) and [vue.js](https://vuejs.org/), deployed on [zeit now](https://zeit.co/now).

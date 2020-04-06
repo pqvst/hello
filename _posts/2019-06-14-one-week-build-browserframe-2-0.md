@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "One Week Build: BrowserFrame 2.0"
-tags: ["JavaScript", "Web Development", "Web Design"]
+tags: [BrowserFrame, "JavaScript", "Web Development", "Web Design"]
 ---
 
 About 3 years ago I built and launched [BrowserFrame.com ](http://BrowserFrame.com)— a free tool that wraps screenshots in different browser frames (great for mockups and landing pages). It was time to give it a much needed update.
