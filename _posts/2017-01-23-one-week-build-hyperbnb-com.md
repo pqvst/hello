@@ -6,7 +6,7 @@ tags: ["JavaScript", "Nodejs", "Airbnb", "Web Development"]
 
 A one week build. Supercharge your Airbnb searches. More listings, more filters, and advanced sorting to help you find your perfect spot. Built with [node.js](https://nodejs.org/en/) and [vue.js](https://vuejs.org/), deployed on [zeit now](https://zeit.co/now).
 
-![](/assets/images/one-week-build-hyperbnb-com/1_mPaNaAN0S-eJVjIEXdThtQ.png)
+![](/assets/img/one-week-build-hyperbnb-com/1_mPaNaAN0S-eJVjIEXdThtQ.png)
 
 ---
 
@@ -14,7 +14,7 @@ A one week build. Supercharge your Airbnb searches. More listings, more filters,
 
 Airbnb is amazing and I can’t imagine not having it when I travel. I use Airbnb a lot, and I spend a lot of time filtering, reading, and searching for the perfect spot. The effort seems to pay off since I’ve never had a bad experience. But, I find that their interface is too limiting.
 
-![Airbnb interface](/assets/images/one-week-build-hyperbnb-com/1-0_P60mwRq1qkC0HRlHkNg.png)*Airbnb interface*
+![Airbnb interface](/assets/img/one-week-build-hyperbnb-com/1-0_P60mwRq1qkC0HRlHkNg.png)*Airbnb interface*
 
 **#1 — I want to be able to sort listings.** I totally understand why Airbnb limits filtering/sorting capabilities. If Airbnb always sorted by most reviews then no one would ever see any new listings.
 
@@ -22,7 +22,7 @@ Airbnb is amazing and I can’t imagine not having it when I travel. I use Airbn
 
 **#3 —Maximum number of beds.** I find it interesting how you can filter for the “minimum” number of beds, but you can’t filter for “maximum” number of beds. If I’m traveling by myself I really don’t want to stay in a place that has 3 double beds crammed into a single room. Feels pointless. I’d like to set a max of 1 or 2 beds (some hosts consider a sofa to be a bed).
 
-![Not ideal for 1 person…](/assets/images/one-week-build-hyperbnb-com/1QndwkPzRAd4DxKbpLw1dZw.png)*Not ideal for 1 person…*
+![Not ideal for 1 person…](/assets/img/one-week-build-hyperbnb-com/1QndwkPzRAd4DxKbpLw1dZw.png)*Not ideal for 1 person…*
 
 **#4 — Minimum number of reviews.** I’m pretty picky when it comes to choosing a spot. I would never stay at a new listing, so it’s just a pain that I can’t remove them or set a minimum number of reviews to help narrow down the choices.
 
@@ -72,15 +72,15 @@ My initial concern was how to actually get hold of the Airbnb data. Turns out, a
 
 The documentation for parameters is definitely lacking. For example, I wanted to search with a specific check-in and check-out date. I also wanted to search by map coordinates. Even though the endpoints are different, I was able to figure out those parameters by inspecting what requests the official Airbnb site makes.
 
-![](/assets/images/one-week-build-hyperbnb-com/1cQR0nCI-My8Nc04WGIcQZw.png)
+![](/assets/img/one-week-build-hyperbnb-com/1cQR0nCI-My8Nc04WGIcQZw.png)
 
 The main downside right now is that the endpoint disallows CORS (cross-origin resource sharing) which means that the client (browser) isn’t able to make AJAX requests directly to the Airbnb API endpoint (since it’s coming from a different domain).
 
-![](/assets/images/one-week-build-hyperbnb-com/1HYPjw7_6b4zoFZNjh2wZqw.png)
+![](/assets/img/one-week-build-hyperbnb-com/1HYPjw7_6b4zoFZNjh2wZqw.png)
 
 Instead, the browser first has send an AJAX request to my backend. Then my backend fetches the data from the Airbnb API. This adds some extra latency and definitely makes the UI less snappy (and the Airbnb API is already quite slow to begin with).
 
-![](/assets/images/one-week-build-hyperbnb-com/1NUcCRv65y-iOc_GrkL7XJA.png)
+![](/assets/img/one-week-build-hyperbnb-com/1NUcCRv65y-iOc_GrkL7XJA.png)
 
 ---
 

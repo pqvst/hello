@@ -6,15 +6,15 @@ tags: [BrowserFrame, "JavaScript", "Web Development", "Web Design"]
 
 Today [BrowserFrame.com](https://browserframe.com) gets a small update — It is now possible to add a shadow around the browser frame. Simply use the new `Shadown Amount` and `Shadow Color` options to adjust the shadow. To remove the shadow, simply clear the shadow options.
 
-![](/assets/images/browserframe-shadow-update/demo.png)
+![](/assets/img/browserframe-shadow-update/demo.png)
 
 The shadow amount and color can be customized using the new options.
 
-![](/assets/images/browserframe-shadow-update/custom.png)
+![](/assets/img/browserframe-shadow-update/custom.png)
 
 If the default shadow space is too large for your liking, you can apply a negative padding to reduce the extra space (but be careful not to clip the shadow as this would probably look ugly).
 
-![](/assets/images/browserframe-shadow-update/padding.png)
+![](/assets/img/browserframe-shadow-update/padding.png)
 
 ---
 

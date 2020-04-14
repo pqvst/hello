@@ -6,7 +6,7 @@ tags: ["Startup", "Product Hunt", "Motivation"]
 
 *1 week build + 20 minutes prep = 1 on Product Hunt*
 
-![](/assets/images/seriously-just-freaking-do-it/14ZZv3AZj8Nwq5rA7PJNhIQ.png)
+![](/assets/img/seriously-just-freaking-do-it/14ZZv3AZj8Nwq5rA7PJNhIQ.png)
 
 **This is not** a story about “how to succeed on Product Hunt”. Nor is it a story about “how Product Hunt turned my business into an overnight success”. There are plenty of those out there…
 
@@ -20,7 +20,7 @@ I recently started a project called [Paperworks](https://paperworks.io). I wrote
 
 I feel like everyone in the startup space talks about [Product Hunt](https://twitter.com/ProductHunt). I think I had only ever been on there once before. I dont know why, it never really caught my attention. In any case, I recently met [Ben Guild](https://twitter.com/benguild) while I was in Tokyo and we started discussing Product Hunt and how his app [Café Wifi](https://www.producthunt.com/tech/cafe-wifi) did really well. One thing led to another…
 
-![](/assets/images/seriously-just-freaking-do-it/1o3H48FkDm9RFO9g_m3FM7A.png)
+![](/assets/img/seriously-just-freaking-do-it/1o3H48FkDm9RFO9g_m3FM7A.png)
 
 It only took 20 minutes from the idea of trying a Product Hunt entering my head, to having prepped my very first Product Hunt. This included:
 
@@ -32,29 +32,29 @@ It only took 20 minutes from the idea of trying a Product Hunt entering my head,
 
 To be honest, my Photoshop skills are pretty minimal. I also had to Google for a GIF maker. Shout-out to [gifmaker.me](http://gifmaker.me/)
 
-![](/assets/images/seriously-just-freaking-do-it/1mSV84dlXBcX866d6oAlHEQ.gif)
+![](/assets/img/seriously-just-freaking-do-it/1mSV84dlXBcX866d6oAlHEQ.gif)
 
 I can just imagine what this process might look like for some startups. Some entrepreneur tells you that you should start preparing for a Product Hunt. You probably spend hours (if not days) drafting the perfect tagline, putting together the perfect thumbnail, and writing the perfect first post.
 
 I pretty much just said “I made this”, and linked to my medium story. To be fair, I did spend quite a lot of time putting together my medium story — but I count that as part of the “build time”.
 
-![](/assets/images/seriously-just-freaking-do-it/1g5jMyu9DnBtcBkrsn_5DrQ.png)
+![](/assets/img/seriously-just-freaking-do-it/1g5jMyu9DnBtcBkrsn_5DrQ.png)
 
 Some time passes (lots of F5:ing).
 
-![](/assets/images/seriously-just-freaking-do-it/1XJP-wvyq96jAouOb5yyiIw.png)
+![](/assets/img/seriously-just-freaking-do-it/1XJP-wvyq96jAouOb5yyiIw.png)
 
 By the end of the day (PST), I had 441 upvotes, 42 comments, and was featured as the #1 product on the Product Hunt home page.
 
-![](/assets/images/seriously-just-freaking-do-it/1xYF6ahqSlHTHnsTjnrsnNg.png)
+![](/assets/img/seriously-just-freaking-do-it/1xYF6ahqSlHTHnsTjnrsnNg.png)
 
 A pretty graph:
 
-![](/assets/images/seriously-just-freaking-do-it/1RURo-jukFiEVh4XLxB98yg.png)
+![](/assets/img/seriously-just-freaking-do-it/1RURo-jukFiEVh4XLxB98yg.png)
 
 Some nice numbers:
 
-![](/assets/images/seriously-just-freaking-do-it/1e_haBHCvmNaaonNUwdShmQ.png)
+![](/assets/img/seriously-just-freaking-do-it/1e_haBHCvmNaaonNUwdShmQ.png)
 
 ## Ok, so why did it “succeed”?
 

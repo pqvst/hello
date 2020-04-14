@@ -8,7 +8,7 @@ tags: Food Tech JavaScript
 
 A few months ago I booked my flight for a 3 week trip to New York. As a "foodie" I immediately started looking for my splurge restaurant visit. Of course New York has a great selection, but I wanted something "fun". On a previous trip to New York I visited [wd~50](http://www.wd-50.com/) — which was an amazing experience, so I wanted to find something similar. After some intense Googling I decided that the two Michelin star [Momofuku Ko](http://momofuku.com/new-york/ko/) was "the one".
 
-![[http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics](http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics)](/assets/images/what-does-fine-dining-and-node-js-have-in-common/ZEt0r8pyzkFHEupXPttwkw.jpeg)
+![[http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics](http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics)](/assets/img/what-does-fine-dining-and-node-js-have-in-common/ZEt0r8pyzkFHEupXPttwkw.jpeg)
 *[http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics](http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics)*
 
 ## Step 1 — How to make a reservation
@@ -32,13 +32,13 @@ Of course, this leads the natural conclusion that I have to write a program that
 
 The first step was to have a look at how the reservation site worked. The interface was a snazzy AJAX-based multi-step wizard with fancy animations (which always makes me a bit worried when trying to automate things).
 
-![](/assets/images/what-does-fine-dining-and-node-js-have-in-common/2KczY_hEbFN0JREoDSx4ng.png)
+![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/2KczY_hEbFN0JREoDSx4ng.png)
 
 My initial thought was to use a browser automation tool like [phantomjs](http://phantomjs.org/) or [casperjs](http://casperjs.org/) — but that turned out to be way too complicated and would have meant writing complicated code for wait and test logic.
 
 So instead I started looking at how the application actually worked. Turns out their application has a nice AJAX-based API for stepping through the wizard steps. Nice!
 
-![](/assets/images/what-does-fine-dining-and-node-js-have-in-common/9JS_IiNdLVuAI9eKv3I63g.png)
+![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/9JS_IiNdLVuAI9eKv3I63g.png)
 
 ## Step 3 — Getting started
 
@@ -164,7 +164,7 @@ Oh, and I also had to check if the reservation system was actually "open" since 
 
 Now to the tricky part. Time slot data was not returned in JSON format (which would have been nice). Rather, it was HTML containing the status for all time slots for all days during the 7 week period. Once again, **cheerio** to the rescue.
 
-![](/assets/images/what-does-fine-dining-and-node-js-have-in-common/umQEBCitoW-qI_xTKxm8MA.png)
+![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/umQEBCitoW-qI_xTKxm8MA.png)
 
 The process goes something like this:
 
@@ -232,11 +232,11 @@ Unfortunately I wasn’t able to change the text spoken when I received a call. 
 
 ## Step 10 — Running it
 
-![](/assets/images/what-does-fine-dining-and-node-js-have-in-common/hMJS_w3nlLBQxjoxeWZ_Zw.png)
+![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/hMJS_w3nlLBQxjoxeWZ_Zw.png)
 
 Finally, I just had to run the program automatically, but also respecting that I probably shouldn’t run it *too* often… A simple Jenkins job that runs the program every once in a while should do the trick!
 
-![](/assets/images/what-does-fine-dining-and-node-js-have-in-common/xEIp4xf0BbnR8JEy7WPMjg.png)
+![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/xEIp4xf0BbnR8JEy7WPMjg.png)
 
 ## All done :)
 
@@ -246,7 +246,7 @@ Finally, I just had to run the program automatically, but also respecting that I
 
 Just before publishing this story my phone rang — guess what, my program found an open slot :)
 
-![](/assets/images/what-does-fine-dining-and-node-js-have-in-common/4aIPAq7c94m9tf6D7gDLvA.png)
+![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/4aIPAq7c94m9tf6D7gDLvA.png)
 
 ***Resources:***
 - [https://nodejs.org/en/](https://nodejs.org/en/)

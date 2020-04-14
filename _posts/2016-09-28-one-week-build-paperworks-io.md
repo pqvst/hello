@@ -6,7 +6,7 @@ tags: ["Nodejs", "JavaScript", "Startup", "Web Development", "DevOps"]
 
 A one week build. Built with [node.js](https://nodejs.org/en/), deployed on [now](https://zeit.co/now).
 
-![Paperworks](/assets/images/one-week-build-paperworks-io/1_FXbHMtUv7TePhM6tcrQXqQ.png)
+![Paperworks](/assets/img/one-week-build-paperworks-io/1_FXbHMtUv7TePhM6tcrQXqQ.png)
 
 All your receipts, invoices, and payments in one place. Sign up and connect one (or multiple) Gmail accounts. Paperworks automatically scans your inbox. Easily download attachments or save emails as PDFs. This story will highlight: why, how, and tools + services used for the build.
 

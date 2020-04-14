@@ -6,7 +6,7 @@ tags: [BrowserFrame, "JavaScript", "Vuejs", "Nodejs", "Web Development", "Startu
 
 A one week build. A free tool that helps you wrap screenshots in different browser frames. Supports Chrome, Firefox, Safari, and more. Built with [node.js](https://nodejs.org/en/) and [vue.js](https://vuejs.org/), deployed on [zeit now](https://zeit.co/now).
 
-![](/assets/images/one-week-build-browserframe-com/1_8R_LmrmgELAcfBUua4p8JQ.png)
+![](/assets/img/one-week-build-browserframe-com/1_8R_LmrmgELAcfBUua4p8JQ.png)
 
 ---
 
@@ -18,7 +18,7 @@ There are a couple of reasons why I want a tool for this (rather than just takin
 
 **#1 — I want to remove clutter.** I don’t want to include my browser extensions, tabs, tab text, my profile name, bookmarks, etc.
 
-![](/assets/images/one-week-build-browserframe-com/1BNrXJ8Ym4alOZNIFQBfddA.png)
+![](/assets/img/one-week-build-browserframe-com/1BNrXJ8Ym4alOZNIFQBfddA.png)
 
 **#2 — Generate cross-platform screenshots easily.** I constantly switch between Windows, Mac, and Linux depending on what I’m working on (right tool for the right job!).
 
@@ -94,15 +94,15 @@ One of the main tasks for this build was to create the artwork needed to actuall
 
 I solved this by taking screenshots of the browsers and broke them down into different pieces (slices) consisting of non-stretchable pieces (corners) and stretchable pieces (edges).
 
-![Slices in Photoshop](/assets/images/one-week-build-browserframe-com/1PcNbX2Lwqj4lPe85Xm6C-Q.png)*Slices in Photoshop*
+![Slices in Photoshop](/assets/img/one-week-build-browserframe-com/1PcNbX2Lwqj4lPe85Xm6C-Q.png)*Slices in Photoshop*
 
 For Windows it was pretty straight forward since there aren’t any rounded corners. So it was just a matter of cutting them into the different pieces.
 
-![Chrome pieces for Windows](/assets/images/one-week-build-browserframe-com/10ubgZWVPPM37FwbypCoccw.png)*Chrome pieces for Windows*
+![Chrome pieces for Windows](/assets/img/one-week-build-browserframe-com/10ubgZWVPPM37FwbypCoccw.png)*Chrome pieces for Windows*
 
 However, on Mac, some browsers have rounded corners. Therefore I couldn’t just use the pieces directly since the uploaded screenshots didn’t have rounded corners. I solved this by creating corner masks that I applied to the uploaded screenshot so that they would match the browser.
 
-![Corners masks for Chrome for Mac](/assets/images/one-week-build-browserframe-com/1kmMxK7MkvN55WEjtVagdLA.png)*Corners masks for Chrome for Mac*
+![Corners masks for Chrome for Mac](/assets/img/one-week-build-browserframe-com/1kmMxK7MkvN55WEjtVagdLA.png)*Corners masks for Chrome for Mac*
 
 A few hours later and I had 8 different browsers :)
 

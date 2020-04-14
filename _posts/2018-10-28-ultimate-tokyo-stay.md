@@ -8,7 +8,7 @@ comments: true
 Public transportation in Tokyo is amazing. You can pretty much get from anywhere to anywhere within 30 minutes. However, it is still important to choose where to stay depending on where you plan to spend most of your time. In general, staying anywhere along the JR Yamanote train line that circles Tokyo will enable cheap and convinient access to all of the main areas of Tokyo (especially if you have Japan Rail Pass). 
 
 <a href="https://drive.google.com/open?id=1rSZc0NBJj9mI_rNa5HCq7uZvB2AZn_yH&usp=sharing" target="_blank">
-![Ultimate Tokyo Stay](/assets/images/maps/tokyo-stay.png)
+![Ultimate Tokyo Stay](/assets/img/maps/tokyo-stay.png)
 </a>
 
 ## Areas
@@ -66,7 +66,7 @@ If you have a [Suica IC card](http://www.jreast.co.jp/e/pass/suica.html){:target
 ## Pro Tip
 When deciding on a place to stay (hotel, Airbnb, or apartment) check Google Maps to see how long it takes to get to Shibuya station. If you can get to Shibuya station either by walking or taking a bus/train (preferably direct) within 30 minutes, then it's probably a good location. Here are some examples:
 
-![Ultimate Tokyo Stay Google Maps](/assets/images/maps/google-maps.png)
+![Ultimate Tokyo Stay Google Maps](/assets/img/maps/google-maps.png)
 
 Ikenoue is west of Shibuya but you can easily walk, take a bus, or a train to get directly to Shibuya. Higashinakano is north-west of Shinjuku which is quite far from Shibuya. However, there is a direct bus route to Shibuya, or you can take JR to Shibuya by train using a single ticket.
 

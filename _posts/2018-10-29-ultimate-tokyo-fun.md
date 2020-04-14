@@ -84,7 +84,7 @@ There are lots of areas and places to explore in Tokyo. Whether you're looking f
 
 ## Map
 <a href="https://drive.google.com/open?id=1wyVoa49MJRxHjPxixUBu9PkvSGxo-azh&usp=sharing" target="_blank">
-![Ultimate Tokyo Fun](/assets/images/maps/tokyo-fun.png)
+![Ultimate Tokyo Fun](/assets/img/maps/tokyo-fun.png)
 </a>
 
 
