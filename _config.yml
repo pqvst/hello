@@ -1,8 +1,8 @@
 encoding: UTF-8
 
 url: "https://pqvst.com"
-title: pqvst
-description: pqvst
+title: PQVST
+description: I build things
 
 markdown: kramdown
 highlighter: rouge
