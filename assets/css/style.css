@@ -225,7 +225,7 @@ a.balansify {
 }
 
 .posts .post + .post {
-  border-top: solid 3px #eee;
+  border-top: solid 1px #eee;
 }
 
 .posts .excerpt {
