@@ -1,13 +1,10 @@
 
-html {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
-}
-
 html, body {
   height: 100%;
 }
 
 body {
+  font-family: "IBM Plex Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
   background-color: #FFFFFF;
   color: #303030;
   line-height: 1.5;
@@ -53,7 +50,6 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-family: 'Roboto Slab', serif;
   font-weight: 400;
 }
 
