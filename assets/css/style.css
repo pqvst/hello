@@ -12,6 +12,12 @@ body {
   font-weight: 300;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12pt;
+  }
+}
+
 code {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
@@ -241,10 +247,9 @@ a.balansify {
   color: rgb(0,0,0,0.3);
 }
 
-.posts .tag::before,
-.post .tag::before {
-  content: "·";
-  margin: 0 5px;
+.posts .tag,
+.post .tag {
+  margin-left: 5px;
 }
 
 
