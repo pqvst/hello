@@ -9,7 +9,8 @@ layout: default
     {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
   </p>
   <div class="markdown">
-    {{ content }}
+    <!-- https://github.com/allejo/jekyll-anchor-headings -->
+    {% include anchor_headings.html html=content anchorClass="anchor" anchorBody="<i class='fa fa-link'></i>" %}
   </div>
 </div>
 

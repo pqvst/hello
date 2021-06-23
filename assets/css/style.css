@@ -257,6 +257,30 @@ a.balansify {
   margin-bottom: 0;
 }
 
+.post h1 .anchor,
+.post h2 .anchor,
+.post h3 .anchor,
+.post h4 .anchor {
+  display: none;
+  color: #ddd;
+}
+
+.post h1:hover .anchor,
+.post h2:hover .anchor,
+.post h3:hover .anchor,
+.post h4:hover .anchor {
+  display: inline;
+}
+
+.post .anchor i.fa {
+  transform: scale(0.8);
+}
+
+.post .anchor:hover {
+  border: none;
+  color: #ccc;
+}
+
 .post img {
   border-radius: 8px;
 }
