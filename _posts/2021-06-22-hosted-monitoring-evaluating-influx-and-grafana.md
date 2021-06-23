@@ -26,11 +26,11 @@ Visually one of the most frustrating things was that the graph series colors kep
 
 ![](/assets/img/hosted-monitoring/influx-colors.png)
 
-Another very frustrating feature (or lack there of) is that the hover tooltip does not give any indication of the specific series your mouse cursor is currently hovering over. A simple solution here would be for InfluxDB to just highlight the actively hovered series.
+Another very frustrating feature (or lack thereof) is that the hover tooltip does not give any indication of the specific series your mouse cursor is currently hovering over. A simple solution here would be to make the actively hovered series hold or emphazied.
 
 ![](/assets/img/hosted-monitoring/influx-hover.png)
 
-### We couldn't get InfluxDB alerts to work at all
+### We couldn't get InfluxDB Cloud alerts to work at all
 
 While we *could* live with the visualization and customization issues, alerts was were we completely gave up on InfluxDB Cloud. No matter how much we tried, we just weren't able to get a simple basic alert to work.
 
@@ -56,11 +56,11 @@ I got quite excited at this point, since there seemed to be a lot of flexibility
 
 After this I tried setting up a simple alert for when the status changes from OK to CRIT. This however, just didn't work. No alerts were sent. At this point we gave up, after having spent more than 1 week trying to get things to work.
 
-One thing to keep in mind is that InfluxDB Cloud's free tier only includes 2 alerts (so we would have definitely needed to upgrade to the paid tier if we had decided to stay with InfluxDB).
+One thing to keep in mind is that InfluxDB Cloud's free tier only includes 2 alerts (so we would have definitely needed to upgrade to the paid tier if we had decided to stay with InfluxDB Cloud).
 
 Another bug we ran into was that at one point a team member tried resetting their password, which instead created a brand new organization and was no longer able to re-join the original organization without creating a new account using a new email address...
 
-At this point we gave up and turned to Grafana Cloud instead.
+Let's try Grafana Cloud instead.
 
 ## Grafana Cloud
 
