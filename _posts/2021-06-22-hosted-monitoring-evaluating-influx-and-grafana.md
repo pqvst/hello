@@ -11,6 +11,7 @@ In an effort to simplify things we started exploring what hosted solutions are a
 - [Part 1: InfluxDB Cloud](#/influxdb-cloud)
 - [Part 2: Grafana Cloud](#grafana-cloud)
 - [Part 3: Free-Tier Comparison](#free-tier-comparison)
+- [Part 4: TL;DR Conclusion](#conclusion)
 
 ## InfluxDB Cloud
 
@@ -136,8 +137,6 @@ Another bonus feature we discovered is the Synthethic Monitoring feature, also a
 
 Overall both options have very generous free tiers, great for anyone looking to get started with basic monitoring. The biggest drawback with InfluxDB Cloud is that they only offer 2 alerts on the free-tier, which feels very low in my opinion. 
 
-The biggest difference between the two is clearly the maturity and feature-set offered by Grafana, whereas the solution InfluxDB Cloud offers feels lacking and buggy. We'll stick with Grafana Cloud for now!
-
 ### [InfluxDB Cloud](https://www.influxdata.com/influxdb-cloud-pricing/) Free-Tier:
 - Series: 10,000
 - Retention 30 days
@@ -151,3 +150,7 @@ The biggest difference between the two is clearly the maturity and feature-set o
 - Retention: 14 days
 - Alerts: 100
 - No storage limit
+
+## Conclusion
+
+The biggest difference between the two is clearly the maturity and rich feature-set offered by Grafana, whereas the solution InfluxDB Cloud offers feels lacking and buggy. We'll stick with Grafana Cloud for now!
