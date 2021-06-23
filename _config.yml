@@ -4,6 +4,8 @@ url: "https://pqvst.com"
 title: PQVST
 description: I build things
 
+theme: null
+
 markdown: kramdown
 highlighter: rouge
 
@@ -12,27 +14,22 @@ kramdown:
 
 permalink: pretty
 
-exclude:
-  - .git/
-  - package.json
-  - package-lock.json
-  - node_modules
-
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - rouge
 
 exclude:
-  - .git/
+  - .git
   - .gitignore
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - node_modules
   - CNAME
   - Gemfile
   - Gemfile.lock
   - README.md
-  - node_modules
-  - package.json
-  - yarn.lock
 
 defaults:
   - scope:
