@@ -4,9 +4,9 @@ title: Notarize any macOS application
 tags: [Tech, Tutorial, macOS]
 ---
 
-![](/assets/img/notarize/notarization.png)
-
 Since macOS Catalina [notarization](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution) is required to avoid installed apps from being blocked because "Apple cannot check it for malicious software". For anyone who already has an Apple developer account (or is willing to create one) you can easily notarize any macOS application using the Xcode command line tools.
+
+![](/assets/img/notarize/notarization.png)
 
 *Note that if you are shipping a DMG file, you only need to notarize the DMG itself, you do not have to notarize the contents of the DMG file.*
 
