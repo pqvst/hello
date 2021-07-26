@@ -32,7 +32,7 @@ Once the droplet is ready, SSH into it to get started!
 
 Cloning the repo is the easiest way to get started. Even though we'll be using the Umami docker image, we still need to initialize the database with the schema file located in the repo. It would be nice if this was automatically handled by the app instead.
 
-```
+```sh
 git clone https://github.com/mikecao/umami.git
 ```
 
@@ -106,7 +106,7 @@ volumes:
 
 Just copy-paste the modified file to your server.
 
-```
+```sh
 cd umami
 rm docker-compose.yml
 nano docker-compose.yml
@@ -165,7 +165,7 @@ umami:
 ### 5) Start and Configure Umami
 With your docker-compose configuration ready, starting Umami is just a matter of running:
 
-```
+```sh
 docker-compose up -d
 ```
 
@@ -189,7 +189,7 @@ A neat future with Umami is that you'll see a notification banner when a new ver
 
 When that happens I just SSH back into my Umami server, pull the latest image and re-deploy.
 
-```bash
+```sh
 docker-compose pull && docker-compose up -d
 ```
 
