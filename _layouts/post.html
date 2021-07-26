@@ -6,9 +6,12 @@ layout: default
   <h1>{{ page.title }}</h1>
   <p class="details">
     <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
-    {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    {% if page.tags %}<span class="tag">{{ page.tags | join: ', ' }}</span>{% endif %}
   </p>
   <div class="markdown">
+    {% if page.image %}
+    <img src="{{ page.image }}" />
+    {% endif %}
     <!-- https://github.com/allejo/jekyll-anchor-headings -->
     {% include anchor_headings.html html=content anchorClass="anchor" anchorBody="<i class='fa fa-link'></i>" %}
   </div>
