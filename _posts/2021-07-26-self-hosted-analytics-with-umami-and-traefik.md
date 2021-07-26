@@ -245,7 +245,7 @@ Umami and Google Analytics are clearly two very different products. Umami has no
 
 Running multiple analytics tools in parallel is always useful to uncover any discrepancies. In general, the number of visitors/users is fairly consistent across both Umami and Google Analytics, although on my sites, I consistently see roughly 25% more visitors reported by Umami vs. Google Analytics. I'm guessing this is probably due to:
 
-- A certain number of visitors are blocking Google Analytics, using a browser that automatically blocks Google Analytics, or using "Do Not Track".
+- A certain number of visitors are blocking Google Analytics, using a browser that automatically blocks Google Analytics.
 - Umami might be double counting some users, since Umami doesn't use cookies to track users across browser sessions or different devices.
 - Google Analytics might be slightly better at filtering bad/bot traffic (although I think this is the least significant). 
 
