@@ -10,7 +10,7 @@ I've been adding Umami to most of my websites as an alternative (or potential re
 In this post I'll walk through the entire process of setting up Umami on a DigitalOcean droplet with Traefik as a reverse proxy. Then I'll highlight some quirks, features, and tips. Finally, I'll also do a quick comparison between Umami and Google Analytics based on the data I've collected for some of my sites.
 
 - [Part 1: Setting up Umami](#setting-up-umami)
-- [Part 2: Quirks, features, and tips](#)
+- [Part 2: Quirks, features, and tips](#quirks-features-and-tips)
 - [Part 3: Comparing Umami and Google Analytics](#umami-vs-google-analytics)
 - [Part 4: TL;DR Final thoughts](#final-thoughts)
 
