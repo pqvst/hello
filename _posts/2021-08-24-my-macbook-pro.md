@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My MacBook Pro
+title: My MacBook Pro had over 10,000 USD in repairs
 tags: [Tech, Apple, MacBook Pro]
 ---
 
