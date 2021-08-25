@@ -10,7 +10,7 @@ I treat my MacBook Pro laptop very well. It barely has a scratch and it's never 
 - 5 top-case replacements
 - 2 complete laptop replacements
 
-The total repair cost (excluding complete laptop replacements), which has thankfully all been covered by AppleCare Protection Plan, totals to roughly 4,000 USD. More than the initial cost of the laptop itself. Factoring in the cost of the complete replacements, it would be closer to 10,000 USD!
+The total repair costs (excluding complete laptop replacements), which has thankfully all been covered by AppleCare Protection Plan, are roughly 4,000 USD. More than the initial cost of the laptop itself. Factoring in the cost of the complete replacements, it would be closer to 10,000 USD!
 
 Apple support has been phenomenal though. As someone who travels a lot, being able to pop into any Apple Store anywhere in the world has been a huge benefit. Generally all my repairs have been very fast as well, usually completed within 1-2 days - so for the most part it hasn't disrupted my work too much. Still, it's been a lot of hassle.
 
@@ -106,7 +106,7 @@ After the previous replacement I had a pretty good run of nearly 8 months withou
 - Replaced charging cable
 - *Repair Cost: 500 USD (covered by APP)*
 
-### 2019-08-19
+### 2019-08-19 - Sticky Keys
 
 Some months later, I started having issues with my R and E keys, causing double clicks. I first took my laptop to the Apple Store to have the keyboard cleaned. However, after this didn't help, they eventually decided to replace the top-case.
 
