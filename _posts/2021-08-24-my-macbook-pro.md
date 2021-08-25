@@ -8,7 +8,12 @@ I treat my MacBook Pro laptop very well. It barely has a scratch and it's never 
 
 - 10+ genius bar appointments
 - 5 top-case replacements
-- 2 complete laptop replacements
+- 1 display replacement
+- 1 logic board replacement
+- 1 fan replacement
+- 1 I/O board replacement
+- 1 charging cable replacement
+- 2 **complete** laptop replacements
 
 The total repair costs (excluding complete laptop replacements), which has thankfully all been covered by AppleCare Protection Plan, are roughly 4,000 USD. More than the initial cost of the laptop itself. Factoring in the cost of the complete replacements, it would be closer to 10,000 USD!
 
