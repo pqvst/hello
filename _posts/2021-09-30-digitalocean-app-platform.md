@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DigitalOcean App Platform: Thoughts + Auto-Scaling"
+title: "DigitalOcean App Platform + Auto-Scaling"
 tags: [Tech, Cloud, DigitalOcean, Hosting]
 ---
 
