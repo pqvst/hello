@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve --drafts --future",
-    "preview": "bundle exec jekyll serve",
-    "mediumexporter": "mediumexporter"
+    "preview": "bundle exec jekyll serve"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,5 @@
     "url": "https://github.com/pqvst/hello/issues"
   },
   "homepage": "https://github.com/pqvst/hello#readme",
-  "dependencies": {
-    "mediumexporter": "^0.1.6"
-  }
+  "dependencies": {}
 }
