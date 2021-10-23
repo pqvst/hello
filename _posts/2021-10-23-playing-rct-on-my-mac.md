@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RollerCoaster Tycoon (original) is still one of my all-time favorite games"
-tags: [Tech, Cloud, DigitalOcean, Hosting]
+tags: [Gaming, Mac, Windows, Parallels]
 hidden: true
 ---
 
