@@ -12,9 +12,12 @@
     <!-- https://formito.com/tools/favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230083ff%22></rect><path fill=%22%23fff%22 d=%22M40.48 77.92L28.32 77.92L28.32 22.08L54.72 22.08Q58.64 22.08 61.76 23.40Q64.88 24.72 67.08 27.04Q69.28 29.36 70.48 32.68Q71.68 36 71.68 39.92L71.68 39.92Q71.68 43.92 70.48 47.20Q69.28 50.48 67.08 52.80Q64.88 55.12 61.76 56.44Q58.64 57.76 54.72 57.76L54.72 57.76L40.48 57.76L40.48 77.92ZM40.48 32.64L40.48 47.20L53.28 47.20Q56 47.20 57.56 45.80Q59.12 44.40 59.12 41.68L59.12 41.68L59.12 38.16Q59.12 35.44 57.56 34.04Q56 32.64 53.28 32.64L53.28 32.64L40.48 32.64Z%22></path></svg>" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+    <link href="/assets/css/github-markdown-light.css" rel="stylesheet">
     <link href="/assets/css/style.css" rel="stylesheet">
     <link href="/assets/css/syntax.css" rel="stylesheet">
 
@@ -36,9 +39,11 @@
     <div class="wrap">
 
       <header>
+        <a href="/" class="favicon">
+          <img height="24" src="/assets/img/favicon.png" />
+        </a>
         <a href="/" class="brand">PQVST</a>
-        <a href="/" {% if page.url == '/' %}class="active"{% endif %}>Projects</a>
-        <a href="/posts" {% if page.url == '/posts/' %}class="active"{% endif %}>Posts</a>
+        <a href="/posts" {% if page.url == '/posts/' %}class="active"{% endif %}>Blog</a>
         <a href="/about" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
       </header>
 
@@ -54,7 +59,7 @@
         <a href="/feed.xml" target="_blank"><i class="fa fa-rss"></i></a>
       </div>
       <div class="copyright">
-          Copyright &copy; 2012-{{ site.time | date: '%Y' }} PQVST AB
+          Copyright &copy; 2012 &ndash; {{ site.time | date: '%Y' }} PQVST AB
       </div>
     </footer>
   </body>

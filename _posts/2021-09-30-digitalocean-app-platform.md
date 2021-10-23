@@ -42,7 +42,7 @@ In this post I'll highlight some of the main App Platform features, pros/cons, t
 - [Access Control](#access-control)
 - [Conclusion](#conclusion)
 
----
+
 
 ## Auto-deploy from GitHub
 
@@ -60,7 +60,7 @@ Tip: We eventually split up our different workers into separate apps with one co
 
 One feature that would be nice to have would be to easily be able to revert to a previous deployment from the web UI. However, I guess this may cause problems if the deployment is out of sync with the GitHub branch.
 
----
+
 
 ## App Spec Configuration
 
@@ -102,7 +102,7 @@ Tip: You can also rename the component (if you don't like the default name that 
 
 It would be nice if the setup wizard offered a way customize this (or even to be able to create an app directly from an App Spec file). It would also be helpful if there was a UI setting for changing the `dockerfile_path`.
 
----
+
 
 ## Environment Variables and Secrets
 
@@ -116,7 +116,7 @@ It is possible to encrypt the variables and can thus not be read in plain text i
 
 There doesn't seem to be any way to define project level variables. That would be nice to have, since most of my apps for a project share a lot of common variables.
 
----
+
 
 ## Runtime Logs
 
@@ -132,7 +132,7 @@ It would be great if there was a way to view logs for all instances, and to be a
 
 Also, it would be nice if there was a way to filter the log, rather than just search. For filtering I'd like only see lines that match my filter (and hide all the other lines). This makes it much easier to, for example, find and inspect all occurrences of an error.
 
----
+
 
 ## App Insights
 
@@ -146,7 +146,7 @@ There are also several graphs related to CDN bandwidth, which I haven't really e
 
 ![CDN insights screenshot](/assets/img/do-app-platform/cdn.png)
 
----
+
 
 ## Console Access
 
@@ -160,7 +160,7 @@ The only major downside is that, again, if you're using scaling, you only have a
 
 Offer a way to access the console of a specific instance (rather than just a random instance).
 
----
+
 
 ## Scaling
 
@@ -218,13 +218,13 @@ It would be fantastic if App Platform would support auto-scaling with custom met
 
 If it even supported some options like being able to specify minimum time before scaling up/down, that would be fantastic!
 
----
+
 
 ## Access Control
 
 At the moment there doesn't seem to be any support for using Firewalls with the App Platform. I.e. there is no way to setup IP whitelisting or other access control rules. It would also be nice if there was a way to restrict traffic to an internal VPC for apps and droplets.
 
----
+
 
 ## Conclusion
 

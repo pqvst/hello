@@ -6,7 +6,9 @@ tags: [Travel, Coworking, Japan, Tokyo]
 
 Recently [STATION WORK](https://www.stationwork.jp/) “share office” pods have started to appear at several stations in Tokyo, including Shinjuku, Tokyo, and Ikebukuro. After hearing about this I of course had to give it a try!
 
+<p>
 <iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fiz98UG3duvI%3Ffeature%3Doembed&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Diz98UG3duvI&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fiz98UG3duvI%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" allowfullscreen="" frameborder="0" height="480" width="640" title="StationWork, Shinjuku Station, Tokyo" scrolling="auto"></iframe>
+</p>
 
 The sign-up process on their website is fairly straight-forward, although the site is only in Japanese. After creating an account you can link a credit card and SUICA card for payment.
 

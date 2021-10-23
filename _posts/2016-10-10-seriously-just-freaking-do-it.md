@@ -4,7 +4,7 @@ title: "Seriously, Just Freaking Do It!"
 tags: ["Startup", "Product Hunt", "Motivation"]
 ---
 
-*1 week build + 20 minutes prep = 1 on Product Hunt*
+*1 week build + 20 minutes prep = #1 on Product Hunt*
 
 ![](/assets/img/seriously-just-freaking-do-it/14ZZv3AZj8Nwq5rA7PJNhIQ.png)
 
@@ -14,7 +14,6 @@ tags: ["Startup", "Product Hunt", "Motivation"]
 
 Sometimes, you just need to do it!
 
----
 
 I recently started a project called [Paperworks](https://paperworks.io). I wrote about in my [One Week Build: Paperworks.io](https://medium.com/front-end-hacking/one-week-build-paperworks-io-4d048f2886f8) story. Head over there if you’d like to get some context. Otherwise, keep reading.
 
@@ -74,8 +73,6 @@ I think it’s safe to say that the Product Hunt succeeded. I’ll have to spend
 
 1. **I maximized exposure time**. My Product Hunt was posted early in the morning (PST). This didn’t even cross my mind earlier. Now I know why Ben said “I would submit it soon”.
 
-These points apply to more than just Product Hunt. It worked just as well when I co-founded my app startup [Unified Remote](https://www.unifiedremote.com). It hit the exact same points! Just replace “Product Hunt” with “App”/”Play Store”.
+These points apply to more than just Product Hunt. It worked just as well when I co-founded my app startup [Unified Remote](https://www.unifiedremote.com). It hit the exact same points! Just replace “Product Hunt” with “App” and ”Play Store”.
 
-So…
-
-## Seriously, just freaking do it!
+So… **Seriously, just freaking do it!**

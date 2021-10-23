@@ -4,14 +4,14 @@ title: What Does Fine-Dining and Node.js Have in Common?
 tags: Food Tech JavaScript
 ---
 
-*Programming is useful for many things — including helping you make reservations at difficult places like David Chang’s Momofuku Ko. Here is what I did…*
+*Programming is useful for many things – including helping you make reservations at difficult places like David Chang’s Momofuku Ko. Here is what I did…*
 
-A few months ago I booked my flight for a 3 week trip to New York. As a "foodie" I immediately started looking for my splurge restaurant visit. Of course New York has a great selection, but I wanted something "fun". On a previous trip to New York I visited [wd~50](http://www.wd-50.com/) — which was an amazing experience, so I wanted to find something similar. After some intense Googling I decided that the two Michelin star [Momofuku Ko](http://momofuku.com/new-york/ko/) was "the one".
+A few months ago I booked my flight for a 3 week trip to New York. As a "foodie" I immediately started looking for my splurge restaurant visit. Of course New York has a great selection, but I wanted something "fun". On a previous trip to New York I visited [wd~50](http://www.wd-50.com/) – which was an amazing experience, so I wanted to find something similar. After some intense Googling I decided that the two Michelin star [Momofuku Ko](http://momofuku.com/new-york/ko/) was "the one".
 
 ![[http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics](http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics)](/assets/img/what-does-fine-dining-and-node-js-have-in-common/ZEt0r8pyzkFHEupXPttwkw.jpeg)
 *[http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics](http://ny.eater.com/2014/11/26/7271437/momofuku-ko-suttonomics)*
 
-## Step 1 — How to make a reservation
+## Step 1 – How to make a reservation
 
 The first step of course was to figure out how to get a reservation. It’s a small place with 12 counter seats so I wasn’t expecting it to be easy. I read some Yelp reviews and my take away was that they open reservations 10 days in advance and they apparently get **filled up in a matter of minutes**. Shouldn’t be too difficult though, I’ll have lots opportunities to try to get a reservation during my 3 week visit.
 
@@ -21,28 +21,28 @@ The first step of course was to figure out how to get a reservation. It’s a sm
 
 1. All reservations for the first week of my trip are already booked.
 
-1. Momofuku Ko is only open Wed — Sun
+1. Momofuku Ko is only open Wed – Sun
 
-That leaves me with only two possible slots, which feels a bit risky. So, what are my options. Either I manage to get a reservation on one of those days — or I manage to find a reservation cancellation…
+That leaves me with only two possible slots, which feels a bit risky. So, what are my options. Either I manage to get a reservation on one of those days – or I manage to find a reservation cancellation…
 > canceled reservations return to the reservation system. there is no wait list and we do not allow walk-ins.
 
 Of course, this leads the natural conclusion that I have to write a program that automatically logs into the reservation system, looks for any available slot, and notifies me as soon as it finds one. Simple.
 
-## Step 2 — Research
+## Step 2 – Research
 
 The first step was to have a look at how the reservation site worked. The interface was a snazzy AJAX-based multi-step wizard with fancy animations (which always makes me a bit worried when trying to automate things).
 
 ![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/2KczY_hEbFN0JREoDSx4ng.png)
 
-My initial thought was to use a browser automation tool like [phantomjs](http://phantomjs.org/) or [casperjs](http://casperjs.org/) — but that turned out to be way too complicated and would have meant writing complicated code for wait and test logic.
+My initial thought was to use a browser automation tool like [phantomjs](http://phantomjs.org/) or [casperjs](http://casperjs.org/) – but that turned out to be way too complicated and would have meant writing complicated code for wait and test logic.
 
 So instead I started looking at how the application actually worked. Turns out their application has a nice AJAX-based API for stepping through the wizard steps. Nice!
 
 ![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/9JS_IiNdLVuAI9eKv3I63g.png)
 
-## Step 3 — Getting started
+## Step 3 – Getting started
 
-Alright, so let’s start coding something. My go-to platform these days is [node.js](https://nodejs.org/en/) — it’s an amazing platform to work with and has a ton of great packages for everything. The obvious package requirements were:
+Alright, so let’s start coding something. My go-to platform these days is [node.js](https://nodejs.org/en/) – it’s an amazing platform to work with and has a ton of great packages for everything. The obvious package requirements were:
 
 ```js
 // simple http requests
@@ -58,9 +58,9 @@ var async = require("async");
 
 Tip, [npmsearch.com](http://npmsearch.com/) is a great tool for finding highly rated packages.
 
-## Step 4 — Logging in
+## Step 4 – Logging in
 
-The first step was to get the login working. It was a simple HTML form with a username and password field — except **they use an authenticity token generated by server embedded into the page**. Namely, I couldn’t just POST the form data without first fetching the login page.
+The first step was to get the login working. It was a simple HTML form with a username and password field – except **they use an authenticity token generated by server embedded into the page**. Namely, I couldn’t just POST the form data without first fetching the login page.
 
 ```js
 // get the login page
@@ -98,7 +98,7 @@ request.post(
 
 Great, "I’m in".
 
-## Step 5 — Making my selections
+## Step 5 – Making my selections
 
 The next step was to actually select all of my preferences for the reservation. The reservation system works across all momofuku restaurants, and the process goes like this:
 
@@ -130,7 +130,7 @@ request.post(
 ```
 
 
-## Step 6 — Fetching time slots
+## Step 6 – Fetching time slots
 
 Alright, now to the good part. Once I had made my selections I had to fetch the information about available time slots. Turns out I was able to request slot information for 7 days starting with **any given date**!
 
@@ -139,7 +139,7 @@ https://reservations.momofuku.com/reservations/<ID>/week/next?start_date=2015-10
 ```
 
 
-Unfortunately I had to somehow figure out a reservation ID. At first I though it was a constant ID associated with my account, but it turned out that **the ID changed — presumably once my session timed out**. However, the initial landing page with time slots contains links to traverse the weeks, so I just extracted the ID from there.
+Unfortunately I had to somehow figure out a reservation ID. At first I though it was a constant ID associated with my account, but it turned out that **the ID changed – presumably once my session timed out**. However, the initial landing page with time slots contains links to traverse the weeks, so I just extracted the ID from there.
 
 ```js
 request.get(
@@ -160,7 +160,7 @@ request.get(
 
 Oh, and I also had to check if the reservation system was actually "open" since reservations can only be made after 10 AM EDT.
 
-## Step 7 — Parsing time slots
+## Step 7 – Parsing time slots
 
 Now to the tricky part. Time slot data was not returned in JSON format (which would have been nice). Rather, it was HTML containing the status for all time slots for all days during the 7 week period. Once again, **cheerio** to the rescue.
 
@@ -178,7 +178,7 @@ The process goes something like this:
 ```
 
 
-## Step 8 — Putting it all together
+## Step 8 – Putting it all together
 
 The great thing about **async** is that it makes writing node.js programs super easy (asynchronous code that’s actually easy to understand). One of my favorite functions for sequential logic is **async.waterfall**. The great thing about it is that if any step returns an error then the waterfall terminates and the error is handled at the bottom. Super useful!
 
@@ -210,7 +210,7 @@ async.concatSeries(dates, function (done) { … });
 ```
 
 
-## Step 9 — Getting notifications
+## Step 9 – Getting notifications
 
 Now I had an array of any available time slots. I just needed a simple effective way to receive notifications once I made the program run automatically. Sure, I could send an email notification (but that’s boring). Also, I wanted something that would be sure to wake me up if something happened at night in Sweden (yes, I’m that eager!)
 
@@ -230,7 +230,7 @@ twilio.makeCall({
 
 Unfortunately I wasn’t able to change the text spoken when I received a call. It would have been awesome to actually have it tell me the time slots available. In any case, it was fine as long as I was able to trigger a phone call.
 
-## Step 10 — Running it
+## Step 10 – Running it
 
 ![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/hMJS_w3nlLBQxjoxeWZ_Zw.png)
 
@@ -240,11 +240,11 @@ Finally, I just had to run the program automatically, but also respecting that I
 
 ## All done :)
 
-193 lines of code in a couple of hours — well worth the effort.
+193 lines of code in a couple of hours – well worth the effort.
 
 > If it’s worth doing, it’s worth overdoing
 
-Just before publishing this story my phone rang — guess what, my program found an open slot :)
+Just before publishing this story my phone rang – guess what, my program found an open slot :)
 
 ![](/assets/img/what-does-fine-dining-and-node-js-have-in-common/4aIPAq7c94m9tf6D7gDLvA.png)
 

@@ -8,7 +8,6 @@ About 3 years ago I built and launched [BrowserFrame.com ](http://BrowserFrame.c
 
 ![](/assets/img/one-week-build-browserframe-2-0/1_iOylCaCRwRqxFPT9QSee2g.png)
 
----
 
 ## What’s New
 
@@ -32,7 +31,6 @@ With client-side rendering, it is now easier to play around with rendering optio
 
 ![](/assets/img/one-week-build-browserframe-2-0/1B-iul_dx1ju5BqiCzuDS6A.png)
 
----
 
 ## Going Deep
 
@@ -102,7 +100,6 @@ Let’s have a look at the rendering process in more detail.
 
 [https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation)
 
----
 
 ## Future Ideas
 
@@ -112,7 +109,6 @@ Let’s have a look at the rendering process in more detail.
 
 * CLI tool
 
----
 
 ## Give it a try!
 

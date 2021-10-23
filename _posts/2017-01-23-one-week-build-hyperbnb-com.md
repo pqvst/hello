@@ -8,7 +8,6 @@ A one week build. Supercharge your Airbnb searches. More listings, more filters,
 
 ![](/assets/img/one-week-build-hyperbnb-com/1_mPaNaAN0S-eJVjIEXdThtQ.png)
 
----
 
 ## Problem
 
@@ -26,21 +25,16 @@ Airbnb is amazing and I can’t imagine not having it when I travel. I use Airbn
 
 **#4 — Minimum number of reviews.** I’m pretty picky when it comes to choosing a spot. I would never stay at a new listing, so it’s just a pain that I can’t remove them or set a minimum number of reviews to help narrow down the choices.
 
----
 
 ## Solution
 
 The solution I went for was to try to create a new UI layer on top of the Airbnb listings data. To my surprise Airbnb actually has a pretty nice undocumented API. More about this later. Here are things I wanted to solve:
 
 * Load up to 100 listings at once.
-
 * Show listings in a table and map layout.
-
 * Allow more filters
-
 * Allow sorting
 
----
 
 ## Build
 
@@ -64,7 +58,6 @@ I’ve become very fond of vue.js, which I used for this project as well. It’s
 
 * [js-rich-marker](https://github.com/googlemaps/js-rich-marker) — after tons of searching I finally found this library which lets you create HTML markers for the Google Maps API. Super useful!
 
----
 
 ## Airbnb API
 
@@ -82,19 +75,14 @@ Instead, the browser first has send an AJAX request to my backend. Then my backe
 
 ![](/assets/img/one-week-build-hyperbnb-com/1NUcCRv65y-iOc_GrkL7XJA.png)
 
----
 
 ## Future Ideas
 
 * Improve UI responsiveness
-
 * Add histograms for pricing/ratings/reviews etc.
-
 * Add sliders instead of min/max text boxes.
-
 * Add filters for amenities and features.
 
----
 
 ## Give it a try :)
 

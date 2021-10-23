@@ -16,11 +16,10 @@ If the default shadow space is too large for your liking, you can apply a negati
 
 ![](/assets/img/browserframe-shadow-update/padding.png)
 
----
 
 ## Technical Details
 
-In my [previous blog post](https://pqvst.com/2019/06/14/one-week-build-browserframe-2-0/) I described the techniques I used to render browser frames using client-side using JavaScript and the canvas API. The reason I didn't add support for shadows in the first place was that I couldn't figure out a way to implement it using this method.
+In my [previous blog post](/2019/06/14/one-week-build-browserframe-2-0/) I described the techniques I used to render browser frames using client-side using JavaScript and the canvas API. The reason I didn't add support for shadows in the first place was that I couldn't figure out a way to implement it using this method.
 
 The main problem is that the shadow has to sit between the background color (if specified) and the browser frame). However, there is no `globalCompositeOperation` that would let me achieve this.
 
@@ -43,7 +42,6 @@ ctx.drawImage(backgroundCanvas, 0, 0);
 ctx.drawImage(foregroundCanvas, 0, 0);
 ```
 
----
 
 ## Give it a try!
 [https://browserframe.com](https://browserframe.com)

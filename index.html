@@ -2,89 +2,36 @@
 layout: default
 ---
 
-<div class="projects">
-  <h1>Projects</h1>
+<h1>Building apps and websites, solving interesting problems.</h1>
 
-  <h2>Active</h2>
-  <ul>
-    <li>
-      <a class="balansify" href="https://balansify.com" target="_blank">Balansify</a>
-      <span class="date">2021</span>
-      <span class="info">Track your investments and savings</span>
-    </li>
-    <li>
-      <a class="cafeandcowork" href="https://cafeandcowork.com" target="_blank">Cafe and Cowork</a>
-      <span class="date">2020</span>
-      <span class="info">Find places to work from</span>
-    </li>
-    <li>
-      <a class="skysense" href="https://skysense.jp" target="_blank">Skysense</a>
-      <span class="date">2019</span>
-      <span class="info">Agricultural intelligence from drone images</span>
-    </li>
-    <li>
-      <a class="awardfares" href="https://awardfares.com" target="_blank">AwardFares</a>
-      <span class="date">2018</span>
-      <span class="info">Find flight award availability</span>
-    </li>
-    <li>
-      <a class="eyecrm" href="https://eyecrm.com" target="_blank">eyeCRM</a>
-      <span class="date">2017</span>
-      <span class="info">A sales CRM for visually impaired</span>
-    </li>
-    <li>
-      <a class="paperworks" href="https://paperworks.io" target="_blank">Paperworks</a>
-      <span class="date">2016</span>
-      <span class="info">Save all your receipts with one click</span>
-    </li>
-    <li>
-      <a class="browserframe" href="https://browserframe.com" target="_blank">BrowserFrame</a>
-      <span class="date">2016</span>
-      <span class="info">Wrap screenshots in browser frames</span>
-    </li>
-    <li>
-      <a class="unifiedremote" href="https://www.unifiedremote.com" target="_blank">Unified Remote</a>
-      <span class="date">2010</span>
-      <span class="info">The one-and-only remote for your computer</span>
-    </li>
-  </ul>
+<section class="projects">
+  {% assign sorted = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted %}
+    <div class="project">
+      <a href="{{ project.link }}" target="_blank">
+        <div class="placeholder" style="background: {{ project.color }}">
+          <img src="{{ project.image }}" />
+        </div>
+        <h3>{{ project.name }} &ndash; {{ project.summary }} <span class="arrow">→</span></h3>
+      </a>
+      <div class="markdown-body">{{ project.content }}</div>
+      <div class="details">Started in {{ project.date | date: '%Y' }} | {{ project.status }}</div>
+    </div>
+  {% endfor %}
+</section>
 
-  <h2>Experiments</h2>
-  <ul>
-    <li>
-      <a class="stocks" href="https://stocks.pqvst.com" target="_blank">EveryDayStocks</a>
-      <span class="date">2020</span>
-      <span class="info">Simple, visual stock screener</span>
-    </li>
-    <li>
-      <a class="shinkansen" href="https://shinkansen.pqvst.com" target="_blank">Shinkansen</a>
-      <span class="date">2018</span>
-      <span class="info">Check Shinkansen seat availability</span>
-    </li>
-    <li>
-      <a class="malmobybike" href="https://bikes.pqvst.com" target="_blank">Bikes</a>
-      <span class="date">2017</span>
-      <span class="info">A simplified Malmö By Bike app</span>
-    </li>
-  </ul>
+<section class="posts">
+  <h2>Blog</h2>
+  {% for post in site.posts limit: 3 %}
+    <a href="{{ post.url }}" class="post">
+      <h3>{{ post.title }} <span class="arrow">→</span></h3>
+      <div class="details">
+        <span class="date">{{ post.date | date: '%b %-d, %Y' }}</span>
+      </div>
+    </a>
+  {% endfor %}
+  <br>
+  <a href="/posts/"><span class="arrow">→</span> More posts</a>
+</section>
 
-  <h2>Past Projects</h2>
-  <ul>
-    <li>
-      <a class="hyperbnb" href="https://hyperbnb.com" target="_blank">Hyperbnb</a>
-      <span class="date">2016</span>
-      <span class="info">Supercharge your Airbnb searches (Suspended)</span>
-    </li>
-    <li>
-      <a class="ebexpert" href="https://eurobonusexpert.com" target="_blank">EB Expert</a>
-      <span class="date">2018</span>
-      <span class="info">EuroBonus Tools, Tips, and Deals (Shutdown)</span>
-    </li>
-    <li>
-      <a class="glance" href="https://glance.se" target="_blank">Glance</a>
-      <span class="date">2016</span>
-      <span class="info">Your metrics, in one place (Sold)</span>
-    </li>
-  </ul>
-  
-</div>
+{% include signup.html %}

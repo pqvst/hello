@@ -8,7 +8,6 @@ A one week build. A free tool that helps you wrap screenshots in different brows
 
 ![](/assets/img/one-week-build-browserframe-com/1_8R_LmrmgELAcfBUua4p8JQ.png)
 
----
 
 ## Problem
 
@@ -26,7 +25,6 @@ There are a couple of reasons why I want a tool for this (rather than just takin
 
 **#4 —** **Photoshop templates aren’t good enough.** There are tons of them, and some look really good. But most aren’t easily resizeable and it’s just a hassle to have to do it that way.
 
----
 
 ## Solution
 
@@ -40,7 +38,6 @@ Simple problems should have simple solutions:
 
 1. Download the final image
 
----
 
 ## Build
 
@@ -62,7 +59,6 @@ One of the reasons why I really like Vue is that it’s so easy to get started w
 
 Vue is extremely quick to start using — especially for small simple components and pages. (Right tool for the right job people).
 
----
 
 ## Going Deep
 
@@ -115,7 +111,6 @@ IE (Windows)
 Opera (Windows)
 ```
 
----
 
 ## Future Ideas
 
@@ -123,7 +118,6 @@ Opera (Windows)
 * Option to add a shadow (gives the image some nice depth)
 * Customize dimensions
 
----
 
 ## Give it a try :)
 

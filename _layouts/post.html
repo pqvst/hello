@@ -2,20 +2,27 @@
 layout: default
 ---
 
-<div class="post">
+<section class="post">
+
   <h1>{{ page.title }}</h1>
-  <p class="details">
-    <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
-    {% if page.tags %}<span class="tag">{{ page.tags | join: ', ' }}</span>{% endif %}
-  </p>
-  <div class="markdown">
-    {% if page.image %}
+  
+  <div class="details">
+    <span class="date">{{ page.date | date: '%b %-d, %Y' }}</span>
+    {% if page.tags %}&ndash; <span class="tag">{{ page.tags | join: ', ' }}</span>{% endif %}
+  </div>
+
+  {% if page.image %}
+  <div class="image">
     <img src="{{ page.image }}" />
-    {% endif %}
+  </div>
+  {% endif %}
+  
+  <div class="markdown-body">
     <!-- https://github.com/allejo/jekyll-anchor-headings -->
     {% include anchor_headings.html html=content anchorClass="anchor" anchorBody="<i class='fa fa-link'></i>" %}
   </div>
-</div>
+
+</section>
 
 <!--
 {% if page.comments %}
@@ -41,6 +48,8 @@ layout: default
 {% endif %}
 <script id="dsq-count-scr" src="//blog-pqvst-com.disqus.com/count.js" async></script>
 -->
+
+{% include signup.html %}
 
 <!-- Zoom powered by: https://github.com/spinningarrow/zoom-vanilla.js -->
 <script src="/assets/js/zoom.js"></script>

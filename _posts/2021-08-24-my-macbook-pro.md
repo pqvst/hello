@@ -23,9 +23,7 @@ Before getting a MacBook my previous laptop was a Dell XPS. During a longer trip
 
 Anyways, here's timeline of my MacBook Pro ownership, all the issues I've experienced and repairs I've made.
 
----
-
-### 2017-06-07 - Purchased my First MacBook Pro
+## 2017-06-07 - Purchased my First MacBook Pro
 
 Purchased my first MacBook Pro (2017 15 inch, space grey) 🎉
 - 2,9 Ghz, 4 core, Intel Core i7
@@ -33,22 +31,22 @@ Purchased my first MacBook Pro (2017 15 inch, space grey) 🎉
 - 16 GB memory
 - 512 GB SSD
 
-### 2017-07-31 - Lemon Unit
+## 2017-07-31 - Lemon Unit
 
 Unfortunately, since day one, my laptop was randomly freezing and getting random kernel panics. After speaking to a friend, they told me I had probably received a "lemon" unit (i.e. faulty from the beginning). To be honest, I'm not quite sure where the term comes from.
 
-### 2017-08-19 - First Complete Replacement
+## 2017-08-19 - First Complete Replacement
 
 I eventually managed to return my initial unit. At first, Apple informed me that they couldn't replace the unit and would instead offer to repair it. However, considering I had almost just received it, and experienced issues from day one, I was able to convince them to give me a brand new unit instead. Phew!
 
-### 2017-10-12 - Enter Key Stopped Working
+## 2017-10-12 - Enter Key Stopped Working
 
 A couple of months in I started to get some issues with the keyboard. Specifically, the enter key stopped working. This led to my first top-case replacement.
 
 - Replaced top-case
 - *Repair Cost: 450 USD (covered by APP)*
 
-### 2017-11-23 - Sleep Issues and Crashes
+## 2017-11-23 - Sleep Issues and Crashes
 
 Unfortunately after my top-case replacement, I was experiencing sleep issues and random crashes. My initial guess was that maybe there was something wrong with the replacement top-case, but Apple wasn't really able to do anything about it at this point. I filed several bug reports to Apple during the next couple of months.
 
@@ -59,22 +57,22 @@ Unfortunately after my top-case replacement, I was experiencing sleep issues and
 2017-11-14 09:48:32 +0900 Failure             	Sleep Failure [code:0xFFFFFFFF0400001F]:
 ```
 
-### 2018-01-13 - Overheating and Pink Screen
+## 2018-01-13 - Overheating and Pink Screen
 
 I was still struggling with the sleep issues and crashes. However, now I was also experiencing overheating issues and my screen would randomly turn pink/purple on wake up.
 
-### 2018-02-14 - Logic Board Replacement
+## 2018-02-14 - Logic Board Replacement
 
 After dealing with all of these issues for several months now, I eventually managed to get a repair. This time they replaced the logic board.
 
 - Replaced logic board
 - *Repair Cost: 800 USD (covered by APP)*
 
-### 2018-04-27 - Broken Speaker
+## 2018-04-27 - Broken Speaker
 
 Things we're going quite well now. However, suddenly, one day my left speaker started to crackle and it made a loud bang (no audio playing at the time). Unfortunately I was abroad at this point and decided to wait until a better time to get it repaired.
 
-### 2018-06-11 - Fan and Top-Case Replacement
+## 2018-06-11 - Fan and Top-Case Replacement
 
 I eventually managed to get my MacBook Pro in for service to deal with the speaker issue. They concluded that they needed to replace the left fan and the top-case.
 
@@ -82,11 +80,11 @@ I eventually managed to get my MacBook Pro in for service to deal with the speak
 - Replaced top-case
 - *Repair Cost: 500 USD (covered by APP)*
 
-### 2018-07-11 - Weird Buzzing Sounds
+## 2018-07-11 - Weird Buzzing Sounds
 
 A short time after my recent repair, my MacBook started making very strange sounds again, like a weird buzzing/electrical sound. Time for another visit to the Apple Store!
 
-### 2018-08-02 - Second Complete Replacement
+## 2018-08-02 - Second Complete Replacement
 
 At this point, I was getting pretty fed of with repairs. Based on my repair history, having done 3 repairs within just over 1 year, I requested to have my unit replaced, which, thankfully was eventually approved.
 
@@ -98,11 +96,11 @@ This time I was given a:
 - 16 GB memory
 - 512 GB
 
-### 2018-09-20 - Migrating my AppleCare Protection Plan
+## 2018-09-20 - Migrating my AppleCare Protection Plan
 
 Since I had already purchased AppleCare Protection Plan on my old unit, I of course wanted to transfer the remaining unused time to my new laptop. However, Apple said that I could instead buy a new plan on the new laptop, and get a refund for my unused period on my old laptop. I was happy with this, but unfortunately the entire process took almost 2 months.
 
-### 2019-03-23 - Exploded USB Ports
+## 2019-03-23 - Exploded USB Ports
 
 After the previous replacement I had a pretty good run of nearly 8 months without any issues. Then, one day, my right-side USB ports decided to "explode". I suddenly heard a loud bang and I could smell that my USB ports were burnt, as well as the end of my charging cable.
 
@@ -111,18 +109,18 @@ After the previous replacement I had a pretty good run of nearly 8 months withou
 - Replaced charging cable
 - *Repair Cost: 500 USD (covered by APP)*
 
-### 2019-08-19 - Sticky Keys
+## 2019-08-19 - Sticky Keys
 
 Some months later, I started having issues with my R and E keys, causing double clicks. I first took my laptop to the Apple Store to have the keyboard cleaned. However, after this didn't help, they eventually decided to replace the top-case.
 
 - Replaced top-case
 - *Repair Cost: 500 USD (covered by APP)*
 
-### 2021-02-01 - New Issues
+## 2021-02-01 - New Issues
 
 Amazingly, I didn't have any issues during the whole of 2020! However, towards the beginning of this year I was starting to experience some new issues. My battery was getting pretty bad, and I was seeing a "Service Recommended" message. Also, my keyboard was showing some wear and tear after not having had another top-case replacement for quite some time now.
 
-### 2021-03-12 - Final Repairs
+## 2021-03-12 - Final Repairs
 
 Then, suddenly an orange/yellow smudge started appearing in the bottom right corner of the screen. It would start very fade but eventually get much darker as the laptop got warmer.
 
@@ -136,11 +134,9 @@ In fact, I did have to bring my MacBook Pro in for another minor repair. After p
 - Replaced top-case
 - *Repair Cost: 1200 USD (covered by APP)*
 
-### 2021-08-19 - AppleCare Protection Plan Expired!
+## 2021-08-19 - AppleCare Protection Plan Expired!
 
 My AppleCare Protection Plan has now expired. I feel a little worried and nervous. Either I'll have to live with any issues that occur from now on, or I'll have to pay for the repairs myself, which have proven to be *quite* expensive.
-
----
 
 ## What's next?
 

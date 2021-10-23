@@ -4,22 +4,19 @@ html, body {
 }
 
 body {
-  font-family: "IBM Plex Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
   background-color: #FFFFFF;
   color: #303030;
   line-height: 1.5;
-  font-size: 15pt;
+  font-size: 18px;
   font-weight: 300;
 }
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 12pt;
+    font-size: 16px;
+    line-height: 1.4;
   }
-}
-
-code {
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
 .wrap {
@@ -33,11 +30,7 @@ code {
 
 main a {
   text-decoration: none;
-  color: #0083ff;
-}
-
-main a:hover {
-  border-bottom: solid 1px #0083ff;
+  color: inherit;
 }
 
 hr {
@@ -51,30 +44,54 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  font-weight: 700;
+}
+
 h1, h2, h3, h4, h5 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1 {
-  font-weight: 400;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.15;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #000000 0%, #666 100%);
+  background: -moz-linear-gradient(to right, #000000 0%, #666 100%);
+  background: linear-gradient(to right, #000000 0%, #666 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.details {
+  color: rgb(0,0,0,0.3);
+}
 
 /* ========================= Header ========================= */
 
 header {
   color: #bbb;
-  margin: 20px 0;
+  margin: 20px 0 60px 0;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   line-height: 1.3;
+}
+
+header a.favicon:hover {
+  border-color: transparent;
 }
 
 header a.brand {
   font-weight: 400;
   color: black;
   text-transform: uppercase;
-  margin-right: 20px;
 }
 
 header a.brand:hover {
@@ -101,234 +118,203 @@ header a.active {
 }
 
 
-
 /* ========================= Projects ========================= */
 
-.projects h2 {
-  margin-top: 30px;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  font-weight: 300;
-  color: rgba(0,0,0,0.3);
-}
-
-.projects .date {
-  color: rgba(0,0,0,0.3);
-  margin-left: 10px;
-}
-
-.projects .info {
-  margin-left: 10px;
-}
-
-.projects ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.projects li {
-  margin: 0;
-  padding: 0;
+.project h3 {
   margin-bottom: 10px;
-  white-space: nowrap;
 }
 
-.projects a {
-  display: inline-block;
+.project h3, p {
+  margin: 0;
+}
+
+.project {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.project .details {
+  margin-top: 4px;
+}
+
+.placeholder {
+  min-height: 50px;
+  max-height: 120px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: rgba(0,0,0,0.05) 0px 6px 24px 0px;
+  background: rgba(0,0,0,0.03);
+  overflow: hidden;
+  margin-bottom: 16px;
+  padding: 10px;
+  max-width: 100%;
+  position: relative;
+}
+
+
+
+/* ========================= Signup Form ========================= */
+
+section.signup {
+  margin: 50px 0;
+  border: solid 1px #ddd;
+  padding: 25px 40px;
+  border-radius: 16px;
+}
+
+section.signup hr {
+  display: none;
+}
+
+section.signup h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+section.signup input {
+  margin-right: 5px;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  padding: 15px 15px;
+}
+
+section.signup button {
+  background: #0083ff;
   color: white;
-  padding: 3px 12px;
-  border-radius: 6px;
-  box-sizing: border-box;
+  border: solid 1px #0083ff;
+  border-radius: 4px;
+  padding: 15px 30px;
+  cursor: pointer;
 }
 
-.projects a:hover {
-  border: none;
-  opacity: 0.8;
+section.signup button:active {
+  background: #0062c0;
+  border-color: #0062c0;
 }
 
-a.awardfares {
-  background: #2e5c8a;
+@media screen and (max-width: 550px) {
+  section.signup {
+    padding: 20px 25px;
+  }
+  section.signup input,
+  section.signup button {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+  }
 }
 
-a.ebexpert {
-  background: #009;
+
+/* ========================= Anchor Arrows ========================= */
+
+a .arrow {
+  font-weight: 300;
 }
 
-a.skysense {
-  background: #2e88fa;
-}
-
-a.unifiedremote {
-  background: #419b24;
-}
-
-a.glance {
-  background: #1d2433;
-  color: yellow;
-}
-
-a.browserframe {
-  background: #333;
-}
-
-a.hyperbnb {
-  background: #ff5a5f;
-}
-
-a.eyecrm {
-  background: rgb(84, 160, 213);
-}
-
-a.paperworks {
-  background: black;
-}
-
-a.shinkansen {
-  background: #009;
-}
-
-a.malmobybike {
-  background: #dd843c;
-}
-
-a.markchimp {
-  background: #ffe01b;
-  color: black;
-}
-
-a.stocks {
-  background: #9b59b6;
-}
-
-a.cafeandcowork {
-  background: #F1D59D;
-  color: black;
-}
-
-a.balansify {
-  background: #3f83f8;
+a:hover .arrow {
+  font-weight: inherit;
 }
 
 
 /* ========================= Posts ========================= */
 
-.posts h1 {
+section.posts h3 {
   margin-bottom: 0;
 }
 
-.posts h2 {
-  line-height: 1.3;
-  margin: 0;
+section.posts .title {
+  margin-top: 50px;
 }
 
-.posts .title a:hover {
-  border-bottom: solid 1px black;
+section.posts .title h2 {
+  margin-bottom: 0;
 }
 
-.posts .post {
-  padding: 30px 0;
+section.posts .title a:hover h2 {
+  color: #0083ff;
 }
 
-.posts .post + .post {
-  border-top: solid 1px #eee;
-}
-
-.posts .excerpt {
-  margin-top: 3px;
+section.posts .excerpt {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-}
-
-.posts .details,
-.post .details {
-  margin-top: 3px;
-  color: rgb(0,0,0,0.3);
-}
-
-.posts .tag,
-.post .tag {
-  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 
 /* ========================= Post ========================= */
 
-.post h1 {
-  font-size: 2em;
-  line-height: 1.2;
-  margin-top: 50px;
+section.post .details {
+  margin: 4px 0 24px 0;
+}
+
+section.post .image {
+  margin-bottom: 30px;
+}
+
+section.post h1 {
   margin-bottom: 0;
 }
 
-.post h1 .anchor,
-.post h2 .anchor,
-.post h3 .anchor,
-.post h4 .anchor {
+
+/* ========================= Anchors ========================= */
+
+a.anchor {
   display: none;
   color: #ddd;
 }
 
-.post h1:hover .anchor,
-.post h2:hover .anchor,
-.post h3:hover .anchor,
-.post h4:hover .anchor {
-  display: inline;
-}
-
-.post .anchor i.fa {
+a.anchor i.fa {
   transform: scale(0.8);
 }
 
-.post .anchor:hover {
+a.anchor:hover {
   border: none;
   color: #ccc;
 }
 
-.post img {
-  border-radius: 8px;
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+  display: inline;
 }
 
-.post img + em {
+
+/* ========================= Markdown Overrides ========================= */
+
+.markdown-body {
+  font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  font-size: inherit;  
+}
+
+.markdown-body hr {
+  height: 1px;
+}
+
+.markdown-body img {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background: rgba(0,0,0,0.03);
+}
+
+.markdown-body img + em {
   font-size: 0.8em;
-  text-align: center;
   display: block;
   margin-top: 5px;
 }
 
-.post .details {
-  margin-top: 5px;
+.markdown-body div.highlight {
+  overflow: hidden;
+  border-radius: 6px;
 }
 
-.post blockquote {
-  background: #f4f4f4;
-  margin: 0;
-  padding: 5px 20px;
-  border-left: solid 3px #ddd;
-  font-style: italic;
+.markdown-body h2 {
+  margin-top: 48px;
 }
-
-.post pre {
-  background: rgba(27,31,35,.05);
-  white-space: pre;
-  overflow: auto;
-  font-size: 0.8em;
-  line-height: 1.2;
-  padding: 15px 30px;
-}
-
-.post hr {
-  margin: 60px 0;
-}
-
-.post p > code,
-.post li > code {
-  background: rgba(27,31,35,.05);
-  padding: 3px 6px;
-  font-size: 0.8em;
-}
-
 
 
 /* ========================= Footer ========================= */

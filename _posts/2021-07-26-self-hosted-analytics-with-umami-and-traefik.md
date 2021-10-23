@@ -14,7 +14,7 @@ In this post I'll walk through the entire process of setting up Umami on a Digit
 - [Part 3: Comparing Umami and Google Analytics](#umami-vs-google-analytics)
 - [Part 4: TL;DR Final thoughts](#final-thoughts)
 
----
+
 
 ## Setting Up Umami
 
@@ -177,7 +177,7 @@ Then, go ahead and add your first site. Umami will provide you with a simple `<s
 
 You're done!
 
----
+
 
 ## Quirks, features, and tips
 
@@ -237,7 +237,7 @@ For those who are wondering, instead of using cookies, Umami computes a session 
 
 Also, Umami does respect "Do Not Track".
 
----
+
 
 ## Umami vs. Google Analytics
 

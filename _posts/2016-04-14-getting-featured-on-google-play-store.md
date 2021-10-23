@@ -29,7 +29,6 @@ We also had to give them an image. At first we thought we would use our standard
 
 We’ve done promotions before and we’ve had some pretty big sales spikes. But we had never done anything this cheap for this long. We had no major expectations. **If there is one thing we’ve learned over the years it’s that there’s no logic to our app downloads/sales figures. Stuff just happens…**
 
----
 
 ### Daily downloads increased from 100/day to 24,000/day
 

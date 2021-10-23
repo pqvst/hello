@@ -10,7 +10,6 @@ A one week build. Built with [node.js](https://nodejs.org/en/), deployed on [now
 
 All your receipts, invoices, and payments in one place. Sign up and connect one (or multiple) Gmail accounts. Paperworks automatically scans your inbox. Easily download attachments or save emails as PDFs. This story will highlight: why, how, and tools + services used for the build.
 
----
 
 ## Problem
 
@@ -28,7 +27,6 @@ I use many tools and services (both personal and for business). Every month I go
 
 I’ve been trying to figure out how I can optimize and automate this process. It’s an annoyance that I don’t want to deal with — and the problem grows with every new project that I start.
 
----
 
 ## Solution
 
@@ -42,7 +40,6 @@ Most of the paperwork I collect can be found directly in my inboxes. Let’s ign
 
 * Build and launch in one week
 
----
 
 ## Build
 
@@ -88,7 +85,6 @@ The alternative approach I used for this project was a pure OAuth sign-in with G
 
 1. [Use the built-in OAuth client in the googleapis package](https://www.npmjs.com/package/googleapis)
 
----
 
 ## Deployment + Hosting
 
@@ -177,7 +173,6 @@ GCS/GCP
 
 For database hosting I went for the 500 MB free tier @ [mLab.com](https://mlab.com/)
 
----
 
 ## Cost Breakdown
 
@@ -203,8 +198,6 @@ Day 5 - Deploy (2h)
 Day 6 - Write-up (8h)
 Day 7 - Publish
 ```
-
----
 
 ## Future Ideas
 
