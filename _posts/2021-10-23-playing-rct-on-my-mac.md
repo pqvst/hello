@@ -2,7 +2,6 @@
 layout: post
 title: "RollerCoaster Tycoon (original) is still one of my all-time favorite games"
 tags: [Gaming, Mac, Windows, Parallels]
-hidden: true
 ---
 
 RollerCoaster Tycoon (the original) released in 1999, is easily one of my all-time favorite games. I used to be completely obsessed by it when I was a kid. Every now and then I still get a craving for it.
