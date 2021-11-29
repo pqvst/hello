@@ -6,7 +6,7 @@ tags: [DigitalOcean, Grafana, Awk, Bash, Monitoring]
 
 DigitalOcean has long supported monitoring and alerting for Droplet disk usage. Unfortunately there is currently no way to monitor the disk usage of attached volumes. For one of my MongoDB instances I use an attached storage volume in order to easily expand disk usage as needed. However, I needed some way of keeping track of when the volume starts to fill up...
 
-![](/assets/img/grafana-bash/do-volume-monitoring.png)
+![](/assets/img/monitor-volume-disk-usage/do-volume-monitoring.png)
 
 Since we already use Grafana Cloud for monitoring various app metrics I figured I could easily add something to monitor the volume disk usage as well. Rather than using something like Telegraf I figured a simple cron job bash script could probably do the job.
 
@@ -154,4 +154,4 @@ Let's invoke the script every minute:
 * * * * * bash ~/report-volume-usage.sh
 ```
 
-![](/assets/img/grafana-bash/grafana.png)
+![](/assets/img/monitor-volume-disk-usage/grafana.png)
