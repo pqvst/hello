@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Using Google Forms for custom form responses"
+title: "How to create a custom Google Form for your static website"
 tags: [Websites, Forms, Google Forms]
 ---
 
-Most websites end up needing some sort of form submission. It might be a mailing list sign-up, a contract form, or submitting bug reports/feedback. For a static website (or if you just don't prefer to build any backend), there are quite a few services out there to help "collect" form responses. However, the free services I've found tend to be quite limited.
+Most websites end up needing some sort of form submission. It might be a mailing list sign-up, a contact form, or submitting bug reports/feedback. For a static website (or if you just don't prefer to build any backend), there are quite a few services out there to help "collect" form responses. However, the free services I've found tend to be quite limited.
 
 Google Forms is usually my go to option for creating any kind of form, but sometimes it's nice being able to create something a little more custom. Well, it turns out you can pretty easily design your own custom Google Forms, or even post submissions from your own backend to Google Forms. It's completely free and there are no limitations!
 
