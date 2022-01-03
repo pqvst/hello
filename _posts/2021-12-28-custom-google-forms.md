@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to create a custom Google Form for your static website"
+title: Custom Google Forms for your static website
 tags: [Websites, Forms, Google Forms]
 ---
 
@@ -10,7 +10,7 @@ Google Forms is usually my go to option for creating any kind of form, but somet
 
 I created a [helper tool](/tools/extract-google-form-fields/) to easily extract the field names.
 
-## Example: Custom newsletter sign-up form
+## Example: Custom mailing list sign-up form
 Here's an example of how I added a mailing list sign-up form to my blog using Google Forms.
 
 ### 1) Create a new Google Form
