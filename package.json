@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve --drafts --future",
-    "preview": "bundle exec jekyll serve"
+    "preview": "bundle exec jekyll serve",
+    "resize": "shrinkem assets --size 1600"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,7 @@
     "url": "https://github.com/pqvst/hello/issues"
   },
   "homepage": "https://github.com/pqvst/hello#readme",
-  "dependencies": {}
+  "dependencies": {
+    "shrinkem": "^2.0.1"
+  }
 }
