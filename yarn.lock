@@ -378,10 +378,10 @@ sharp@^0.30.4:
     tar-fs "^2.1.1"
     tunnel-agent "^0.6.0"
 
-shrinkem@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/shrinkem/-/shrinkem-2.0.1.tgz#2be9bf63d360ee14aaca75a332aef9d193137568"
-  integrity sha512-ebUIBK9VQActjnoepormLTxFl607sgXwkd96HFyr4bigR/b7mDB/26DBrGJ8RSbUvPotBbietqo9jXsyBNxL7w==
+shrinkem@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/shrinkem/-/shrinkem-2.1.0.tgz#aaea1ef62cd63e5b1831df9f7102368be8346cf0"
+  integrity sha512-4Ba8WwNcv+tqb25lCbe2bSqkkhRPGdu6Rr7bZQPoGhN1/NwMpI8NrI6a/xsthB5E4oYiI4xwtLWgIBXQmVhS/g==
   dependencies:
     minimist "^1.2.6"
     readdirp "^3.6.0"

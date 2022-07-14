@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/pqvst/hello#readme",
   "dependencies": {
-    "shrinkem": "^2.0.1"
+    "shrinkem": "^2.1.0"
   }
 }

@@ -15,7 +15,7 @@ layout: default
         <h3>{{ project.name }} &ndash; {{ project.summary }} <span class="arrow">→</span></h3>
       </a>
       <div class="markdown-body">{{ project.content }}</div>
-      <div class="details">Started in {{ project.date | date: '%Y' }} | {{ project.status }}</div>
+      <div class="details">Launched {{ project.date | date: '%Y' }} | {{ project.status }}</div>
     </div>
   {% endfor %}
 </section>
