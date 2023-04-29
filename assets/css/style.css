@@ -317,6 +317,9 @@ h6:hover .anchor {
   margin-top: 48px;
 }
 
+.markdown-body p a {
+  text-decoration: underline;
+}
 
 /* ========================= Footer ========================= */
 
