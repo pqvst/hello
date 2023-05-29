@@ -8,7 +8,7 @@ layout: default
   
   <div class="details">
     <span class="date">{{ page.date | date: '%b %-d, %Y' }}</span>
-    {% if page.tags %}&ndash; <span class="tag">{{ page.tags | join: ', ' }}</span>{% endif %}
+    {% if page.tags.size > 0 %}&ndash; <span class="tag">{{ page.tags | join: ', ' }}</span>{% endif %}
   </div>
 
   {% if page.image %}
