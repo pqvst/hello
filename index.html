@@ -12,7 +12,7 @@ layout: default
         <div class="placeholder" style="background: {{ project.color }}">
           <img src="{{ project.image }}" />
         </div>
-        <h3>{{ project.name }} &ndash; {{ project.summary }} <span class="arrow">→</span></h3>
+        <h3>{{ project.name }} {% if project.summary %}&ndash; {{ project.summary }}{% endif %} <span class="arrow">→</span></h3>
       </a>
       <div class="markdown-body">{{ project.content }}</div>
       <div class="details">Launched {{ project.date | date: '%Y' }} | {{ project.status }}</div>

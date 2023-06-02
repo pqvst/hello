@@ -139,7 +139,7 @@ header a.active {
 
 .placeholder {
   min-height: 50px;
-  max-height: 120px;
+  max-height: 20vh;
   border-radius: 8px;
   margin: 10px 0;
   box-shadow: rgba(0,0,0,0.05) 0px 6px 24px 0px;
