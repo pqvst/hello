@@ -7,7 +7,7 @@ layout: default
   <h1>{{ page.title }}</h1>
   
   <div class="details">
-    <span class="date">{{ page.date | date: '%b %-d, %Y' }}</span>
+    <span class="date">{{ page.date | date: '%B %-d, %Y' }}</span>
     {% if page.tags.size > 0 %}&ndash; <span class="tag">{{ page.tags | join: ', ' }}</span>{% endif %}
   </div>
 
