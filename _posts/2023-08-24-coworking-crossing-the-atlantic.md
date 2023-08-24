@@ -7,6 +7,15 @@ I recently took my first ever cruise (or voyage as Cunard calls it) across the A
 
 <img src="/assets/img/coworking-cruise/working.jpg" class="full" />
 
+Here are the different topics I'll cover in this post:
+
+- [Why work on a cruise?](#why-work-on-a-cruise)
+- [How "workable" is it?](#how-workable-is-it)
+- [Best Places to Work](#best-places-to-work)
+- [Life on Board](#life-on-board)
+- [Tips and Tricks](#tips-and-tricks)
+- [FAQ](#faq)
+
 ## Why work on a cruise?
 
 My co-founder and I live in different countries, and from time to time it's nice to spend a week working together in the same place. Originally we'd planned to just travel somewhere (as we've done in the past). But, I always feel a bit guilty/stressed traveling somewhere if I end up just staying inside working, rather than exploring the place we've traveled to.
