@@ -3,9 +3,9 @@ layout: post
 title: Transatlantic Coworking-Cruise on the Queen Mary 2
 ---
 
-<img src="/assets/img/coworking-cruise/working.jpg" class="full" />
-
 I recently took my first ever cruise (or voyage as Cunard calls it) across the Atlantic onboard the Cunard luxury cruise ship Queen Mary 2 from Southampton, England to New York. However, this wasn't just a normal holiday cruise, instead I'd be coworking with my co-founder during the transatlantic crossing.
+
+<img src="/assets/img/coworking-cruise/working.jpg" class="full" />
 
 ## Why work on a cruise?
 
