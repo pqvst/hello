@@ -138,6 +138,10 @@ In fact, I did have to bring my MacBook Pro in for another minor repair. After p
 
 My AppleCare Protection Plan has now expired. I feel a little worried and nervous. Either I'll have to live with any issues that occur from now on, or I'll have to pay for the repairs myself, which have proven to be *quite* expensive.
 
+## 2023-09-15 - M2 MacBook Pro is on the way! (Update)
+
+Time flies! Two years later I've now *finally* gotten around to upgrading to a M2 MacBook Pro. Not because my old one broke. In fact, since my last repair before my AppleCare Protection Plan expired I haven't had any issues. I just felt it was time for an upgrade. Six years later feels like the end of an era. Let's hope for a smoother journey this time around!
+
 ## What's next?
 
 As much as I *don't* want to buy another Mac in the future, I have a feeling that I probably will. I'm eager to try out the 2nd generation M1 macs when they eventually get released.
