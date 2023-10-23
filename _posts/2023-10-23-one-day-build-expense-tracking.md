@@ -4,8 +4,6 @@ title: "One Day Build: Expense Tracking"
 image: /assets/img/one-day-build-expense-tracking/preview.png
 ---
 
-## Background
-
 For a long time I've struggled to find a simple and good expense tracker. I've tried several different apps, most recently [Wallet](https://budgetbakers.com/) and before that, [Settle Up](https://settleup.io/). All of the apps I've tried worked fine, but usually felt too complicated, lacked some fundamental feature that I wanted, or simply was just too clunky or buggy.
 
 Furthermore, one of my main requirements is *<u>shared expense tracking</u>*. I use Android and my wife uses iPhone so we want something that works cross-platform so that we can track our expenses together.
