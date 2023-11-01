@@ -18,7 +18,7 @@ Instead, I set up a simple Google Sheet, and started using that as my expense tr
 
 ![](/assets/img/one-day-build-expense-tracking/spreadsheet.png)
 
-Ever since I first started tracking my expenses, I quickly realized that the best habit is to add your expenses immediately as they occur, so I don't forget later. So, it's important for me to be able to log my expenses easily and quickly on the go.
+Ever since we first started tracking our expenses, we quickly realized that the best habit is to add your expenses immediately as they occur, so we don't forget later. So, it's important for us to be able to log our expenses easily and quickly on the go.
 
 During the first couple of days with the spreadsheet I started by writing down expenses in a note on my phone, and then at the end of the day I'd sync the data with the spreadsheet. However, after a couple of days of doing this I decided to find a better solution.
 
