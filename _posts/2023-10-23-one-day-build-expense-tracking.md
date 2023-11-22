@@ -157,7 +157,9 @@ Another thing I wanted to add was total spend by category. By tweaking the code 
 
 The final feature I wanted to add was notifications. This was by far the most challenging part, and here, ChatGPT completely failed. Not only was ChatGPT unable to give me any complete examples, but I also ended up reading a lot of blog posts that seemed to just regurgitate the exact same incomplete or useless examples.
 
-Eventually I ended up following one of [Google's code labs](https://codelabs.developers.google.com/codelabs/push-notifications/) which did have some fairly decent examples that I was able to refer to, in order to figure out how to get it to work. In the end it wasn't particularly difficult. I will cover this in more detail in a later blog post.
+Eventually I ended up following one of [Google's code labs](https://codelabs.developers.google.com/codelabs/push-notifications/) which did have some fairly decent examples that I was able to refer to, in order to figure out how to get it to work. In the end it wasn't particularly difficult.
+
+For more details on how Web Push Notifications work, I've written another post dedicated to just that: [Demystifying Web Push Notifications](https://pqvst.com/2023/11/21/web-push-notifications/)
 
 ![](/assets/img/one-day-build-expense-tracking/notifications all.png)
 
