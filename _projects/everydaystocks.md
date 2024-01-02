@@ -1,6 +1,6 @@
 ---
 name: EveryDayStocks
-link: https://stocks.pqvst.com
+link: 
 summary: A simple visual stock screener
 date: 2020-01-01
 status: Experiment
