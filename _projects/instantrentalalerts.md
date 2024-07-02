@@ -1,6 +1,5 @@
 ---
 name: Instant Rental Alerts
-link: https://instantrentalalerts.nl
 summary: Email alerts for new rentals in the Netherlands!
 date: 2022-07-01
 status: Suspended

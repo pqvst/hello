@@ -2,10 +2,10 @@
 layout: post
 title: "Building a SaaS product in 1 week"
 tags: ["One Week Build", "SaaS", "Node.js", "Web App"]
-image: https://instantrentalalerts.nl/img/share.png
+image: /assets/img/projects/instantrentalalerts.png
 ---
 
-A one week build: [InstantRentalAlerts.nl](https://instantrentalalerts.nl/): Instant email alerts for new rentals in the Netherlands. Built with [node.js](https://nodejs.org/en/) and deployed on [DigitalOcean App Platform](https://m.do.co/c/0ffbbf933d7c).
+A one week build: Instant Rental Alerts: Instant email alerts for new rentals in the Netherlands. Built with [node.js](https://nodejs.org/en/) and deployed on [DigitalOcean App Platform](https://m.do.co/c/0ffbbf933d7c).
 
 ## Problem
 
@@ -27,9 +27,9 @@ The service redirects users to the original rental website as to not attempt to 
 
 ## Build
 
-The build itself is actually quite boring. I didn't use any fancy modern frameworks or shiny new web technologies. Most of it is simply just server-side rendered HTML. For an overview of the tech and services I used for the build, head over to the [Tech Stack](https://instantrentalalerts.nl/stack).
+The build itself is actually quite boring. I didn't use any fancy modern frameworks or shiny new web technologies. Most of it is simply just server-side rendered HTML.
 
-[![](/assets/img/instantrentalalerts/stack.png)](https://instantrentalalerts.nl/stack)
+![](/assets/img/instantrentalalerts/stack.png)
 
 ### Backend
 
@@ -186,7 +186,5 @@ Profit (per transaction)
 - [One Week Build: Paperworks.io](https://pqvst.com/2016/09/28/one-week-build-paperworks-io/)
 
 ---
-
-[instantrentalalerts.nl](https://instantrentalalerts.nl)
 
 <a href="https://www.producthunt.com/posts/instant-rental-alerts?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-instant&#0045;rental&#0045;alerts" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=352448&theme=light" alt="Instant&#0032;Rental&#0032;Alerts - Instant&#0032;email&#0032;alerts&#0032;for&#0032;new&#0032;rentals&#0032;in&#0032;the&#0032;Netherlands&#0033; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
