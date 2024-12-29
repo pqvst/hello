@@ -86,5 +86,4 @@ Instead, the browser first has send an AJAX request to my backend. Then my backe
 
 ## Give it a try :)
 
-[https://hyperbnb.com](https://hyperbnb.com)  
 [https://www.producthunt.com/posts/hyperbnb](https://www.producthunt.com/posts/hyperbnb)

@@ -1,6 +1,6 @@
 ---
 name: Hyperbnb
-link: https://hyperbnb.com
+link: /
 summary: Supercharge your Airbnb searches
 date: 2016-01-01
 status: Suspended
